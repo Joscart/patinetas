@@ -9,12 +9,15 @@
 
 <!-- Custom Styles -->
 <link rel="stylesheet" href="style.css">
+<link rel='stylesheet'
+	href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
 </head>
 
 <body>
 	<header>
-		<a href="index.jsp"> <img id="logo" src="images/choropatin-logo.jpg"
-			alt="Logo de Choro Patin" class="logo">
+		<a href="index.jsp"> <img id="logo"
+			src="images/choropatin-logo.jpg" alt="Logo de Choro Patin"
+			class="logo">
 		</a>
 		<h1>Choro Patin</h1>
 		<p>Tu pati-tienda de confianza</p>
@@ -28,7 +31,7 @@
 		</ul>
 		<aside>
 			<ul>
-				<li><a href="underconstruction.jsp">Iniciar Sesion</a></li>
+				<li><a href="login.jsp">Iniciar Sesion</a></li>
 				<li><a href="register.jsp">Registrarse</a></li>
 			</ul>
 		</aside>
@@ -47,11 +50,15 @@
 
 	<section id="contact">
 		<h2>Contactanos</h2>
-		<a href="#"><i class="fi fi-brands-instagram"></i>@joscar_tinicio</a> <a href="#"><i class="fi fi-rr-envelope"></i>joscartinicioegc@gmail.com</a>
-		<a href="#"><i class="fi fi-brands-whatsapp"></i>+593 98 795 5837</a>
+		<a href="https://www.instagram.com/joscar_tinicio"><i class="fi fi-brands-instagram"></i> joscar_tinicio</a><br>
+		<a href="https://github.com/Joscart"><i class="fi fi-brands-github"></i> Joscart</a><br>
+		<a href="#"><i class="fi fi-brands-whatsapp"></i> +593 98 795 5837</a>
 	</section>
 
 	<footer>
+		<p>
+			Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
+		</p>
 		<p>&copy; 2025 ChoroPatin. Todos los derechos reservados.</p>
 	</footer>
 	<script src="main.js"></script>
