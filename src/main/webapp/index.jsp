@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="com.productos.negocio.*"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,6 +55,13 @@
 		<a href="https://www.instagram.com/joscar_tinicio"><i class="fi fi-brands-instagram"></i> joscar_tinicio</a><br>
 		<a href="https://github.com/Joscart"><i class="fi fi-brands-github"></i> Joscart</a><br>
 		<a href="#"><i class="fi fi-brands-whatsapp"></i> +593 98 795 5837</a>
+	</section>
+	
+	<section>
+		<% 
+		Producto pr = new Producto();
+		out.print(pr.consultarTodo());
+		%>
 	</section>
 
 	<footer>
