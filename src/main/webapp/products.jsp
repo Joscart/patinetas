@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="com.productos.negocio.*"%>
+    pageEncoding="UTF-8" import="com.productos.negocio.* , java.io.*"%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,29 +38,11 @@
 		</aside>
 	</nav>
 
-	<section id="mision">
-		<h2>mision</h2>
-		<p>Ser la tienda de patines mas confiable y accesible del Ecuador, ofreciendo
-            un servicio de calidad y productos de alta gama.</p>
-	</section>
-
-	<section id="vision">
-		<h2>vision</h2>
-		<p>Ser la tienda de patines mas confiable y accesible del Ecuador,
-			ofreciendo un servicio de calidad y productos de alta gama.</p>
-	</section>
-
-	<section id="location">
-		<h2>Ubicacion</h2>
-		<iframe id="mapa"
-			src="https://www.google.com/maps/d/embed?mid=1C050dfAawal2mlOydNunYhsAenyG_kc&ehbc=2E312F&noprof=1"></iframe>
-	</section>
-
-	<section id="contact">
-		<h2>Contactanos</h2>
-		<a href="https://www.instagram.com/joscar_tinicio"><i class="fi fi-brands-instagram"></i> joscar_tinicio</a><br>
-		<a href="https://github.com/Joscart"><i class="fi fi-brands-github"></i> Joscart</a><br>
-		<a href="#"><i class="fi fi-brands-whatsapp"></i> +593 98 795 5837</a>
+	<section id="productos">
+		<%
+		Producto p = new Producto();
+		out.print(p.consultarTodo());
+		%>
 	</section>
 
 	<footer>

@@ -38,29 +38,30 @@
 		</aside>
 	</nav>
 
-	<section id="mision">
-		<h2>mision</h2>
-		<p>Ser la tienda de patines mas confiable y accesible del Ecuador, ofreciendo
-            un servicio de calidad y productos de alta gama.</p>
-	</section>
+	<section id="categorias">
+		<form id="seleccionCat" method="post" action="categories.jsp">
+			<%
+			Categoria c = new Categoria();
+			out.print(c.mostrarCategoria());
+			%>
+			<input type="submit" value="Verificar" />
+		</form>
+		
+		<h3>Productos</h3>
+		
+		<%
+		String idCat = request.getParameter("cmbCategoria");
+		if (idCat != null) {
+			Producto p = new Producto();
+			try {
+				int catId = Integer.parseInt(idCat);
+				out.print(p.buscarProductoCategoria(catId));
+			} catch (NumberFormatException e) {
+				out.print(p.consultarTodo());
+			}
+		}
+		%>
 
-	<section id="vision">
-		<h2>vision</h2>
-		<p>Ser la tienda de patines mas confiable y accesible del Ecuador,
-			ofreciendo un servicio de calidad y productos de alta gama.</p>
-	</section>
-
-	<section id="location">
-		<h2>Ubicacion</h2>
-		<iframe id="mapa"
-			src="https://www.google.com/maps/d/embed?mid=1C050dfAawal2mlOydNunYhsAenyG_kc&ehbc=2E312F&noprof=1"></iframe>
-	</section>
-
-	<section id="contact">
-		<h2>Contactanos</h2>
-		<a href="https://www.instagram.com/joscar_tinicio"><i class="fi fi-brands-instagram"></i> joscar_tinicio</a><br>
-		<a href="https://github.com/Joscart"><i class="fi fi-brands-github"></i> Joscart</a><br>
-		<a href="#"><i class="fi fi-brands-whatsapp"></i> +593 98 795 5837</a>
 	</section>
 
 	<footer>

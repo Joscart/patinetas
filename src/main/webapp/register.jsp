@@ -25,9 +25,8 @@
 
 	<nav>
 		<ul>
-			<li><a href="underconstruction.jsp">Productos</a></li>
-			<li><a href="underconstruction.jsp">Como llegar</a></li>
-			<li><a href="underconstruction.jsp">Contacto</a></li>
+			<li><a href="products.jsp">Productos</a></li>
+			<li><a href="categories.jsp">Categorias</a></li>
 		</ul>
 		<aside>
 			<ul>

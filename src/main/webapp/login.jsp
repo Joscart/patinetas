@@ -25,9 +25,8 @@
 
 	<nav>
 		<ul>
-			<li><a href="underconstruction.jsp">Productos</a></li>
-			<li><a href="underconstruction.jsp">Como llegar</a></li>
-			<li><a href="underconstruction.jsp">Contacto</a></li>
+			<li><a href="products.jsp">Productos</a></li>
+			<li><a href="categories.jsp">Categorias</a></li>
 		</ul>
 		<aside>
 			<ul>
@@ -40,7 +39,7 @@
 	<!-- login de cliente correo y contraseña -->
 
 	<h3>Iniciar Sesion</h3>
-	<form>
+	<form action="validarLogin.jsp" method="post" class="card">
 		<table border="0" cellpadding="5" cellspacing="5">
 			<!-- input correo -->
 			<tr>
@@ -50,10 +49,13 @@
 			<!-- input contraseña -->
 			<tr>
 				<td><label for="contraseña">Contraseña:</label></td>
-				<td><input type="password" id="contraseña" name="contraseña"
+				<td><input type="password" id="contrasena" name="contrasena"
 					required></td>
 			</tr>
 			<!-- input submit -->
+			<tr>
+				<td><label for="error"></label></td>
+			</tr>
 			<tr>
 				<td colspan="2"><input type="submit" value="Iniciar Sesion"></td>
 			</tr>

@@ -1,5 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="com.productos.negocio.*"%>
+    pageEncoding="UTF-8" import="com.productos.seguridad.*"%>
+    
+<%
+String usuario;
+HttpSession sesion = request.getSession();
+if (sesion.getAttribute("usuario") == null) //Se verifica si existe la variable
+{
+%>
+<jsp:forward page="login.jsp">
+	<jsp:param name="error" value="Debe registrarse en el sistema." />
+</jsp:forward>
+<%
+} else {
+%>
+
+<%
+usuario = (String) sesion.getAttribute("usuario"); //Se devuelve los valores de atributos
+int perfil = (Integer) sesion.getAttribute("perfil");
+%>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,29 +57,21 @@
 		</aside>
 	</nav>
 
-	<section id="mision">
-		<h2>mision</h2>
-		<p>Ser la tienda de patines mas confiable y accesible del Ecuador, ofreciendo
-            un servicio de calidad y productos de alta gama.</p>
-	</section>
-
-	<section id="vision">
-		<h2>vision</h2>
-		<p>Ser la tienda de patines mas confiable y accesible del Ecuador,
-			ofreciendo un servicio de calidad y productos de alta gama.</p>
-	</section>
-
-	<section id="location">
-		<h2>Ubicacion</h2>
-		<iframe id="mapa"
-			src="https://www.google.com/maps/d/embed?mid=1C050dfAawal2mlOydNunYhsAenyG_kc&ehbc=2E312F&noprof=1"></iframe>
-	</section>
-
-	<section id="contact">
-		<h2>Contactanos</h2>
-		<a href="https://www.instagram.com/joscar_tinicio"><i class="fi fi-brands-instagram"></i> joscar_tinicio</a><br>
-		<a href="https://github.com/Joscart"><i class="fi fi-brands-github"></i> Joscart</a><br>
-		<a href="#"><i class="fi fi-brands-whatsapp"></i> +593 98 795 5837</a>
+	<section id="menu">
+		<h1>Sitio Privado de Productos</h1>
+		<h4>
+			Bienvenido
+			<%
+		out.println(usuario);
+		%>
+		</h4>
+		<nav>
+		<%
+		Pagina pag = new Pagina();
+		String menu = pag.mostrarMenu(perfil);
+		out.print(menu);
+		%>
+		</nav>
 	</section>
 
 	<footer>
@@ -72,3 +83,7 @@
 	<script src="main.js"></script>
 </body>
 </html>
+
+<%
+}
+%>
