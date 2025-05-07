@@ -115,6 +115,14 @@
 				<td><input type="password" id="confirmar_contrasena"
 					name="confirmar_contrasena" required></td>
 			</tr>
+			<!-- label estado -->
+			<tr>
+                <td><label for="estado">
+                <%
+                
+                %>
+                </label></td>
+            </tr>
 
 			<!-- Boton de registro -->
 			<tr>

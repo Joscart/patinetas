@@ -59,58 +59,35 @@ int perfil = (Integer) sesion.getAttribute("perfil");
 
 	<section class="opcion">
 		<h1>
-			Registro de usuarios (
+			Cambio de clave (
 			<%
 		out.println(usuario);
 		%>
 			)
 		</h1>
-		<form action="validarRegistro.jsp" method="post" class="card">
+		<form action="validarCambioClave.jsp" method="post" class="card">
 			<table border="0" cellpadding="5" cellspacing="5">
 				<!-- organizacion columna fila -->
-				<!-- input nombre -->
+				<!-- input contraseña actual -->
 				<tr>
-					<td><label for="nombre">Nombre:</label></td>
-					<td><input type="text" id="nombre" name="nombre" required>
-					</td>
+					<td><label for="contrasena">Contraseña actual:</label></td>
+					<td><input type="password" id="contrasena" name="contrasena"
+						required></td>
 				</tr>
-				<!-- input cedula -->
+				<!-- input nueva contraseña -->
 				<tr>
-					<td><label for="cedula">Cedula:</label></td>
-					<td><input type="text" id="cedula" name="cedula" required>
-					</td>
+					<td><label for="nueva_contrasena">Nueva Contraseña:</label></td>
+					<td><input type="password" id="nueva_contrasena"
+						name="nueva_contrasena" required></td>
 				</tr>
-				<!-- input perfil -->
+				<!-- input confirmar contraseña -->
 				<tr>
-					<td><label for="perfil">Perfil:</label></td>
-					<td><select id="perfil" name="perfil">
-							<%
-						Perfil per = new Perfil();
-						out.print(per.mostrarPerfil());
-						%>
-					</select></td>
+					<td><label for="confirmar_contrasena">Confirmar Nueva
+							Contraseña:</label></td>
+					<td><input type="password" id="confirmar_contrasena"
+						name="confirmar_contrasena" required></td>
 				</tr>
-				<!-- input estado civil -->
-				<tr>
-					<td><label for="estado_civil">Estado Civil:</label></td>
-					<td><select id="estado_civil" name="estado_civil">
-							<%
-						EstadoCivil estc = new EstadoCivil();
-						out.print(estc.mostrarEstadoCivil());
-						%>
-					</select></td>
-				</tr>
-				<!-- input correo -->
-				<tr>
-					<td><label for="correo">Correo:</label></td>
-					<td><input type="email" id="correo" name="correo" required>
-					</td>
-				</tr>
-				<!-- input contraseña -->
-				<tr>
-					<td><label for="contrasena">Contraseña:</label></td>
-					<td><label for="contrasena-default">654321</label></td>
-				</tr>
+
 				<!-- label estado -->
 				<tr>
 					<td><label for="estado"> <%
@@ -125,7 +102,7 @@ int perfil = (Integer) sesion.getAttribute("perfil");
 				<!-- Boton de registro -->
 				<tr>
 					<td><input type="reset" value="Cancelar"></td>
-					<td><input type="submit" value="Registrar"></td>
+					<td><input type="submit" value="Cambio de Clave"></td>
 				</tr>
 
 			</table>
