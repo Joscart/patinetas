@@ -5,6 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<%
+HttpSession sesion = request.getSession(); //Se crea la variable de sesión
+%>
+
 <title>Choro Patin</title>
 
 <!-- Custom Styles -->
@@ -37,7 +41,7 @@
 	</nav>
 
 	<h3>Registro nuevo cliente</h3>
-	<form>
+	<form action="validarNuevoRegistro.jsp" method="post" class="card">
 		<table border="0" cellpadding="5" cellspacing="5">
 			<!-- organizacion columna fila -->
 			<!-- input nombre -->
@@ -76,25 +80,25 @@
 			<tr>
 				<td><label for="hoja_vida">Hoja de Vida:</label></td>
 				<td><input type="file" id="hoja_vida" name="hoja_vida"
-					accept=".pdf" required></td>
+					accept=".pdf" ></td>
 			</tr>
 			<!-- input foto -->
 			<tr>
 				<td><label for="foto">Foto:</label></td>
 				<td><input type="file" id="foto" name="foto" accept="image/*"
-					required></td>
+					></td>
 			</tr>
 			<!-- input fecha de nacimiento -->
 			<tr>
 				<td><label for="fecha_nacimiento">Fecha de Nacimiento:</label></td>
 				<td><input type="date" id="fecha_nacimiento"
-					name="fecha_nacimiento" required></td>
+					name="fecha_nacimiento"></td>
 			</tr>
 			<!-- input color favorito -->
 			<tr>
 				<td><label for="color_favorito">Color Favorito:</label></td>
 				<td><input type="text" id="color_favorito"
-					name="color_favorito" required></td>
+					name="color_favorito"></td>
 			</tr>
 			<!-- input correo -->
 			<tr>
@@ -119,7 +123,10 @@
 			<tr>
                 <td><label for="estado">
                 <%
-                
+                	String estado = (String) sesion.getAttribute("estado");
+                	if (estado != null) {
+                		out.println(estado);
+                	}
                 %>
                 </label></td>
             </tr>

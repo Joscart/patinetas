@@ -271,7 +271,7 @@ public class Usuario {
 	}
 	
 	public Boolean coincidirClaves(String nclave, String nrepetir) {
-		boolean respuesta=false;
+		boolean respuesta;
 		if(nclave.equals(nrepetir))
 		{
 			respuesta=true;
