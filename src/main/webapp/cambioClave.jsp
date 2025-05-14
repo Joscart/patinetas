@@ -51,8 +51,11 @@ int perfil = (Integer) sesion.getAttribute("perfil");
 		</ul>
 		<aside>
 			<ul>
-				<li><a href="login.jsp">Iniciar Sesion</a></li>
-				<li><a href="register.jsp">Registrarse</a></li>
+				<%
+				Pagina pag = new Pagina();
+				String menu = pag.mostrarMenu(perfil);
+				out.print(menu);
+				%>
 			</ul>
 		</aside>
 	</nav>
@@ -108,13 +111,6 @@ int perfil = (Integer) sesion.getAttribute("perfil");
 			</table>
 		</form>
 
-		<nav>
-			<%
-		Pagina pag = new Pagina();
-		String menu = pag.mostrarMenu(perfil);
-		out.print(menu);
-		%>
-		</nav>
 	</section>
 
 	<footer>

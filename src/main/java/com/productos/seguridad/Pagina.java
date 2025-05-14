@@ -21,7 +21,7 @@ public class Pagina {
 			rs=con.Consulta(sql);
 			while(rs.next())
 			{
-				menu+="<a href="+rs.getString(3)+" class=\"link-button\">"+rs.getString(2)+"</a>";
+				menu+="<li><a href="+rs.getString(3)+" >"+rs.getString(2)+"</a></li>";
 			}
 		}
 		catch(SQLException e)

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="com.productos.negocio.*"%>
+    pageEncoding="UTF-8" import="com.productos.negocio.* , com.productos.seguridad.*"%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +14,14 @@
 <link rel='stylesheet'
 	href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
 </head>
-
+<%
+String usuario;
+HttpSession sesion = request.getSession();
+if (sesion.getAttribute("usuario") == null) //Se verifica si existe la variable
+{
+usuario = (String) sesion.getAttribute("usuario"); //Se devuelve los valores de atributos
+}
+%>
 <body>
 	<header>
 		<a href="index.jsp"> <img id="logo"
@@ -32,8 +39,19 @@
 		</ul>
 		<aside>
 			<ul>
+				<%
+				if (sesion.getAttribute("usuario") != null) {
+					Pagina pag = new Pagina();
+					int perfil = (Integer) sesion.getAttribute("perfil");
+					String menu = pag.mostrarMenu(perfil);
+					out.print(menu);
+				} else {
+				%>
 				<li><a href="login.jsp">Iniciar Sesion</a></li>
 				<li><a href="register.jsp">Registrarse</a></li>
+				<%
+				}
+				%>
 			</ul>
 		</aside>
 	</nav>
