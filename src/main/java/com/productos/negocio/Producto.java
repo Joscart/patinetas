@@ -129,5 +129,78 @@ public class Producto {
 		System.out.print(resultado);
 		return resultado;
 	}
+	
+	public String agregarOferta(int cat,  double precioOferta) {
+		String sentencia="UPDATE tb_producto SET estado = 1, valor = "+precioOferta+" WHERE id_cat = "+cat;
+		Conexion con=new Conexion();
+		String rs=null;
 
+		rs=con.Ejecutar(sentencia);
+		return rs;
+	}
+	
+	public String eliminarOferta(int cat) {
+		String sentencia="UPDATE tb_producto SET estado = 0 WHERE id_cat = "+cat;
+		Conexion con=new Conexion();
+		String rs=null;
+
+		rs=con.Ejecutar(sentencia);
+		return rs;
+	}
+	
+	public String consultarOfertas()
+	{
+		String sql="SELECT * FROM tb_producto WHERE estado = 1 ORDER BY id_pr";
+		Conexion con=new Conexion();
+		String tabla="<table class=\"tabla\"><th>ID</th><th>Producto</th><th>Cantidad</th><th>Precio</th><th>Precio Oferta</th>";
+		ResultSet rs=null;
+		rs=con.Consulta(sql);
+		try {
+			if(rs!=null) {
+				while(rs.next())
+				{
+					tabla+="<tr><td>"+rs.getInt(1)+"</td>"
+							+ "<td>"+rs.getString(3)+"</td>"
+							+ "<td>"+rs.getInt(4)+"</td>"
+							+ "<td>"+rs.getDouble(5)+"</td>"
+							+ "<td>"+rs.getDouble(8)+"</td>"
+							+ "</tr>";
+				}
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.print(e.getMessage());
+		}
+		tabla+="</table>";
+		return tabla;
+	}
+	
+	public String consultarSinOfertas(String linkModificar)
+	{
+		String sql="SELECT * FROM tb_producto WHERE estado = 0 ORDER BY id_pr";
+		Conexion con=new Conexion();
+		String tabla="<table class=\"tabla\"><th>ID</th><th>Producto</th><th>Cantidad</th><th>Precio</th>";
+		ResultSet rs=null;
+		rs=con.Consulta(sql);
+		try {
+			if(rs!=null) {
+				while(rs.next())
+				{
+					tabla+="<tr><td>"+rs.getInt(1)+"</td>"
+							+ "<td>"+rs.getString(3)+"</td>"
+							+ "<td>"+rs.getInt(4)+"</td>"
+							+ "<td>"+rs.getDouble(5)+"</td>"
+							+ "<td><a href="+linkModificar+"?id="+rs.getInt(1)+">Agregar Oferta</a></td>"
+							+ "</tr>";
+				}
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.print(e.getMessage());
+		}
+		tabla+="</table>";
+		return tabla;
+	}
 }
