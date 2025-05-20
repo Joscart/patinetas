@@ -4,148 +4,92 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="E-commerce Web (Tomcat)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="200" width="200" height="80" as="geometry" />
+        <!-- Fusionando estructura de Página 2 con nombres y contexto de tu proyecto -->
+        <!-- Actores -->
+        <mxCell id="a1" value="Administrador" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#1e88e5;strokeColor=#0d47a1;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Administrador" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="100" y="100" width="60" height="80" as="geometry" />
+        <mxCell id="a2" value="Vendedor" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#43a047;strokeColor=#1b5e20;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Cliente" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="100" y="250" width="60" height="80" as="geometry" />
+        <mxCell id="a3" value="Cliente" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fbc02d;strokeColor=#f57c00;fontColor=#000000;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Vendedor" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="100" y="400" width="60" height="80" as="geometry" />
+        <mxCell id="a4" value="Invitado" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#8e24aa;strokeColor=#4a148c;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Invitado" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="100" y="550" width="60" height="80" as="geometry" />
+        <!-- Limite de contexto -->
+        <mxCell id="ctx1" value="Contexto E-commerce" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="API mymaps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="700" y="150" width="120" height="60" as="geometry" />
+        <!-- Contenedores principales -->
+        <mxCell id="c1" value="WebApp Tomcat\n(JSP, Servlets, lógica de negocio)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1976d2;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0d47a1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Google Maps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="700" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="c2" value="HTML5, JS, CSS, Google Maps" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#6d4c41;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3e2723;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Web Application (Tomcat)\nLógica de negocio, JSP/Servlets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="400" y="800" width="220" height="80" as="geometry" />
+        <mxCell id="c3" value="Bootstrap" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ab47bc;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6a1b9a;" vertex="1" parent="1">
+          <mxGeometry x="860" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="Base de Datos\nPostgreSQL" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="700" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="c4" value="PostgreSQL (pgAdmin)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#388e3c;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1b5e20;" vertex="1" parent="1">
+          <mxGeometry x="590" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="Servicio Gestión de Productos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="200" y="950" width="180" height="60" as="geometry" />
+        <!-- Servicios internos -->
+        <mxCell id="s1" value="Gestión de Productos" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1010" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="Servicio Auditoría" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1000" width="150" height="60" as="geometry" />
+        <mxCell id="s2" value="Autenticación y Seguridad" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontColor=#ffffff;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1010" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="30" value="Paquete productos\n(Gestión de productos, lógica de catálogo)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1200" width="200" height="60" as="geometry" />
+        <mxCell id="s3" value="Java (paquetes: productos, datos, negocio, seguridad)" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1080" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="Paquete datos\n(Acceso a datos, DAOs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1200" width="180" height="60" as="geometry" />
+        <mxCell id="db1" value="BD_PRODUCTOS (PostgreSQL)" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#ad1457;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1260" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="32" value="Paquete negocio\n(Lógica de negocio, servicios)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1300" width="200" height="60" as="geometry" />
+        <mxCell id="db2" value="Backup BD_PRODUCTOS" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1420" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="33" value="Paquete seguridad\n(Autenticación y autorización)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1300" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="34" value="JSPs (Vistas)\nwebapp/" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1200" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="35" value="JS y CSS\nwebapp/" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b7e1cd;strokeColor=#388e3c;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1300" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="50" value="Producto.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1450" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="51" value="ProductoDAO.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1450" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="52" value="NegocioProducto.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1520" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="53" value="SeguridadService.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1520" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="54" value="index.jsp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1450" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="55" value="main.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b7e1cd;strokeColor=#388e3c;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1520" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="56" value="estilos.css" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b7e1cd;strokeColor=#388e3c;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1520" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="57" value="Auditoria.sql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="800" y="1450" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="58" value="Query.sql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="800" y="1520" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="59" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="52" target="50" edge="1">
+        <!-- Relaciones principales (ejemplo, puedes ajustar según tus relaciones reales) -->
+        <mxCell id="r1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#1976d2;strokeWidth=1;endFill=1;strokeColor=#1976d2;" edge="1" parent="1" source="a1" target="c1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="60" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="51" target="50" edge="1">
+        <mxCell id="r2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#43a047;strokeWidth=1;endFill=1;strokeColor=#43a047;" edge="1" parent="1" source="a2" target="c1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="61" value="Accede" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="51" target="57" edge="1">
+        <mxCell id="r3" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fbc02d;strokeWidth=1;endFill=1;strokeColor=#fbc02d;" edge="1" parent="1" source="a3" target="c1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="62" value="Accede" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="51" target="58" edge="1">
+        <mxCell id="r4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#8e24aa;strokeWidth=1;endFill=1;strokeColor=#8e24aa;" edge="1" parent="1" source="a4" target="c1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="63" value="Incluye" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="54" target="55" edge="1">
+        <mxCell id="r5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#388e3c;strokeWidth=1;endFill=1;strokeColor=#388e3c;" edge="1" parent="1" source="c1" target="c4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="64" value="Incluye" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="54" target="56" edge="1">
+        <mxCell id="r6" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fbc02d;strokeWidth=1;endFill=1;strokeColor=#fbc02d;" edge="1" parent="1" source="c1" target="c3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="3" target="2" edge="1">
+        <mxCell id="r7" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#6d4c41;strokeWidth=1;endFill=1;strokeColor=#6d4c41;" edge="1" parent="1" source="c1" target="c2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="4" target="2" edge="1">
+        <mxCell id="r8" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#f8bbd0;strokeWidth=1;endFill=1;strokeColor=#f8bbd0;" edge="1" parent="1" source="c4" target="db1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="11" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="5" target="2" edge="1">
+        <mxCell id="r9" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#b0bec5;strokeWidth=1;endFill=1;strokeColor=#b0bec5;dashed=1;" edge="1" parent="1" source="db2" target="db1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="12" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="6" target="2" edge="1">
+        <!-- Relaciones de servicios internos -->
+        <mxCell id="r10" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fff176;strokeWidth=1;endFill=1;strokeColor=#fff176;" edge="1" parent="1" source="s2" target="s1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="2" target="7" edge="1">
+        <mxCell id="r11" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="s1" target="s3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="2" target="8" edge="1">
+        <mxCell id="r12" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="s2" target="s3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="JDBC/ORM" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="20" target="21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="25" value="REST/HTTP" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="20" target="22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="26" value="REST/HTTP" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="20" target="23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="27" value="API mymaps" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="20" target="7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="28" value="Google Maps" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="20" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="36" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="34" target="30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="37" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="34" target="32" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="38" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="32" target="31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="39" value="Usa" style="endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="32" target="33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="40" value="Incluye recursos estáticos" style="endArrow=block;endFill=1;strokeColor=#000000;dashed=1;" parent="1" source="34" target="35" edge="1">
+        <mxCell id="r13" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#f8bbd0;strokeWidth=1;endFill=1;strokeColor=#f8bbd0;" edge="1" parent="1" source="s3" target="db1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
