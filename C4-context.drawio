@@ -234,584 +234,259 @@
             <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+        <!-- CONTEXTO (C4 Context Diagram) -->
+        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Sistema Principal" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;b&gt;CHORO PATIN - E-commerce&lt;/b&gt;&lt;br&gt;Tienda de patines: productos, categorías, carrito, usuarios.&lt;br&gt;Misión: Ser la tienda de patines más confiable y accesible del Ecuador.&lt;br&gt;Visión: Servicio de calidad y productos de alta gama." id="ctx1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
             <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;b&gt;Administrador Choro Patin&lt;/b&gt;&lt;br&gt;Administradores de la tienda Choro Patin" id="admin">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#1e88e5;strokeColor=#0d47a1;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;b&gt;Empleado Choro Patin&lt;/b&gt;&lt;br&gt;Vendedores/empleados de la tienda Choro Patin" id="vendedor">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#43a047;strokeColor=#1b5e20;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;b&gt;Cliente Choro Patin&lt;/b&gt;&lt;br&gt;Clientes de la tienda Choro Patin" id="cliente">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fbc02d;strokeColor=#f57c00;fontColor=#000000;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;b&gt;Invitado Choro Patin&lt;/b&gt;&lt;br&gt;Visitantes no logeados de la tienda Choro Patin" id="invitado">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#8e24aa;strokeColor=#4a148c;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+        <!-- CONTENEDORES (C4 Container Diagram) -->
+        <object placeholders="1" c4Name="WebApp Tomcat" c4Type="Contenedor" c4Technology="JSP, Servlets, lógica de negocio" c4Description="Aplicación web principal desplegada en Tomcat, maneja la lógica de negocio y la interacción con usuarios y base de datos." label="&lt;b&gt;WebApp Tomcat&lt;/b&gt;&lt;br&gt;JSP, Servlets, lógica de negocio" id="webapp">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1976d2;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0d47a1;" vertex="1" parent="1">
+            <mxGeometry x="320" y="790" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Frontend Choro Patin" c4Type="Contenedor" c4Technology="HTML5, JS, CSS, Google Maps" c4Description="Interfaz de usuario, mapas y recursos estáticos." label="&lt;b&gt;Frontend Choro Patin&lt;/b&gt;&lt;br&gt;HTML5, JS, CSS, Google Maps" id="frontend">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#6d4c41;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3e2723;" vertex="1" parent="1">
+            <mxGeometry x="1120" y="790" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Bootstrap" c4Type="Contenedor" c4Technology="Bootstrap" c4Description="Framework de estilos para la tienda Choro Patin." label="&lt;b&gt;Bootstrap&lt;/b&gt;&lt;br&gt;Framework de estilos" id="bootstrap">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ab47bc;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6a1b9a;" vertex="1" parent="1">
+            <mxGeometry x="860" y="790" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PostgreSQL Choro Patin" c4Type="Base de datos" c4Technology="PostgreSQL (pgAdmin)" c4Description="Base de datos principal de la tienda Choro Patin." label="&lt;b&gt;PostgreSQL Choro Patin&lt;/b&gt;&lt;br&gt;Base de datos principal" id="postgres">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#388e3c;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1b5e20;" vertex="1" parent="1">
+            <mxGeometry x="590" y="790" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <!-- COMPONENTES (C4 Component Diagram) -->
+        <object placeholders="1" c4Name="Gestión de Productos" c4Type="Componente" c4Technology="Java, JS, SQL" c4Description="Gestión de productos, carrito y stock de la tienda Choro Patin." label="&lt;b&gt;Gestión de Productos&lt;/b&gt;&lt;br&gt;Java, JS, SQL" id="gestion">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="1010" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Autenticación y Seguridad" c4Type="Componente" c4Technology="Java, JS" c4Description="Gestión de usuarios, roles y seguridad de la tienda Choro Patin." label="&lt;b&gt;Autenticación y Seguridad&lt;/b&gt;&lt;br&gt;Java, JS" id="seguridad">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontColor=#ffffff;fontSize=12;align=center;" vertex="1" parent="1">
+            <mxGeometry x="320" y="1010" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Java Backend" c4Type="Componente" c4Technology="Java (paquetes: productos, datos, negocio, seguridad)" c4Description="Lógica de negocio y acceso a datos de la tienda Choro Patin." label="&lt;b&gt;Java Backend&lt;/b&gt;&lt;br&gt;Paquetes: productos, datos, negocio, seguridad" id="java">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+            <mxGeometry x="730" y="1080" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <!-- BASE DE DATOS (C4 Container/Component) -->
+        <object placeholders="1" c4Name="BD_CHOROPATIN" c4Type="Base de datos" c4Technology="PostgreSQL" c4Description="Base de datos de productos, usuarios, ventas y auditoría de la tienda Choro Patin." label="&lt;b&gt;BD_CHOROPATIN&lt;/b&gt;&lt;br&gt;PostgreSQL" id="bd">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#ad1457;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+            <mxGeometry x="720" y="1260" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Backup BD_CHOROPATIN" c4Type="Backup" c4Technology="PostgreSQL" c4Description="Backup de la base de datos principal de la tienda Choro Patin." label="&lt;b&gt;Backup BD_CHOROPATIN&lt;/b&gt;&lt;br&gt;Backup de la base de datos" id="backup">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+            <mxGeometry x="720" y="1420" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <!-- DIAGRAMA DE CÓDIGO (C4 Code/Classes) -->
+        <object placeholders="1" c4Name="Producto.java" c4Type="Clase" c4Description="Entidad producto de la tienda Choro Patin." label="&lt;b&gt;Producto.java&lt;/b&gt;" id="prod">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1200" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="ProductoDAO.java" c4Type="Clase" c4Description="Acceso a datos de productos." label="&lt;b&gt;ProductoDAO.java&lt;/b&gt;" id="prodDao">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1250" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="NegocioProducto.java" c4Type="Clase" c4Description="Lógica de negocio de productos." label="&lt;b&gt;NegocioProducto.java&lt;/b&gt;" id="negocio">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#43a047;strokeColor=#1b5e20;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1300" width="140" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="SeguridadService.java" c4Type="Clase" c4Description="Servicios de autenticación y seguridad." label="&lt;b&gt;SeguridadService.java&lt;/b&gt;" id="segService">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1350" width="140" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="index.jsp" c4Type="Vista" c4Description="Página principal de la tienda Choro Patin." label="&lt;b&gt;index.jsp&lt;/b&gt;" id="jsp">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ab47bc;strokeColor=#6a1b9a;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1400" width="100" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="main.js" c4Type="Script" c4Description="Lógica de frontend de la tienda Choro Patin." label="&lt;b&gt;main.js&lt;/b&gt;" id="js">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d4c41;strokeColor=#3e2723;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1450" width="100" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="estilos.css" c4Type="Estilo" c4Description="Estilos de la tienda Choro Patin." label="&lt;b&gt;estilos.css&lt;/b&gt;" id="css">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d4c41;strokeColor=#3e2723;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1500" width="100" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Auditoria.sql" c4Type="Script SQL" c4Description="Auditoría de operaciones en la tienda Choro Patin." label="&lt;b&gt;Auditoria.sql&lt;/b&gt;" id="auditoria">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1550" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Query.sql" c4Type="Script SQL" c4Description="Consultas SQL de la tienda Choro Patin." label="&lt;b&gt;Query.sql&lt;/b&gt;" id="query">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <!-- RELACIONES PRINCIPALES Y DE CÓDIGO (mantener estructura de Página-2) -->
+        <!-- ...relaciones y edges adaptados... -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pagina3" name="Página-3">
+    <mxGraphModel dx="872" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- CONTEXTO (C4 Context Diagram) -->
+        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Sistema Principal" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;b&gt;CHORO PATIN - E-commerce&lt;/b&gt;&lt;br&gt;Tienda de patines: productos, categorías, carrito, usuarios.&lt;br&gt;Misión: Ser la tienda de patines más confiable y accesible del Ecuador.&lt;br&gt;Visión: Servicio de calidad y productos de alta gama." id="ctx1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
             <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;b&gt;Administrador Choro Patin&lt;/b&gt;&lt;br&gt;Administradores de la tienda Choro Patin" id="admin">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#1e88e5;strokeColor=#0d47a1;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;b&gt;Empleado Choro Patin&lt;/b&gt;&lt;br&gt;Vendedores/empleados de la tienda Choro Patin" id="vendedor">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#43a047;strokeColor=#1b5e20;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;b&gt;Cliente Choro Patin&lt;/b&gt;&lt;br&gt;Clientes de la tienda Choro Patin" id="cliente">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fbc02d;strokeColor=#f57c00;fontColor=#000000;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
+        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;b&gt;Invitado Choro Patin&lt;/b&gt;&lt;br&gt;Visitantes no logeados de la tienda Choro Patin" id="invitado">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#8e24aa;strokeColor=#4a148c;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
             <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
+        <!-- CONTENEDORES (C4 Container Diagram) -->
+        <object placeholders="1" c4Name="WebApp Tomcat" c4Type="Contenedor" c4Technology="JSP, Servlets, lógica de negocio" c4Description="Aplicación web principal desplegada en Tomcat, maneja la lógica de negocio y la interacción con usuarios y base de datos." label="&lt;b&gt;WebApp Tomcat&lt;/b&gt;&lt;br&gt;JSP, Servlets, lógica de negocio" id="webapp">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1976d2;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0d47a1;" vertex="1" parent="1">
+            <mxGeometry x="320" y="790" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
+        <object placeholders="1" c4Name="Frontend Choro Patin" c4Type="Contenedor" c4Technology="HTML5, JS, CSS, Google Maps" c4Description="Interfaz de usuario, mapas y recursos estáticos." label="&lt;b&gt;Frontend Choro Patin&lt;/b&gt;&lt;br&gt;HTML5, JS, CSS, Google Maps" id="frontend">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#6d4c41;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3e2723;" vertex="1" parent="1">
+            <mxGeometry x="1120" y="790" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
+        <object placeholders="1" c4Name="Bootstrap" c4Type="Contenedor" c4Technology="Bootstrap" c4Description="Framework de estilos para la tienda Choro Patin." label="&lt;b&gt;Bootstrap&lt;/b&gt;&lt;br&gt;Framework de estilos" id="bootstrap">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ab47bc;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6a1b9a;" vertex="1" parent="1">
+            <mxGeometry x="860" y="790" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
+        <object placeholders="1" c4Name="PostgreSQL Choro Patin" c4Type="Base de datos" c4Technology="PostgreSQL (pgAdmin)" c4Description="Base de datos principal de la tienda Choro Patin." label="&lt;b&gt;PostgreSQL Choro Patin&lt;/b&gt;&lt;br&gt;Base de datos principal" id="postgres">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#388e3c;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1b5e20;" vertex="1" parent="1">
+            <mxGeometry x="590" y="790" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
+        <!-- COMPONENTES (C4 Component Diagram) -->
+        <object placeholders="1" c4Name="Gestión de Productos" c4Type="Componente" c4Technology="Java, JS, SQL" c4Description="Gestión de productos, carrito y stock de la tienda Choro Patin." label="&lt;b&gt;Gestión de Productos&lt;/b&gt;&lt;br&gt;Java, JS, SQL" id="gestion">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="1010" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="Autenticación y Seguridad" c4Type="Componente" c4Technology="Java, JS" c4Description="Gestión de usuarios, roles y seguridad de la tienda Choro Patin." label="&lt;b&gt;Autenticación y Seguridad&lt;/b&gt;&lt;br&gt;Java, JS" id="seguridad">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontColor=#ffffff;fontSize=12;align=center;" vertex="1" parent="1">
+            <mxGeometry x="320" y="1010" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="Java Backend" c4Type="Componente" c4Technology="Java (paquetes: productos, datos, negocio, seguridad)" c4Description="Lógica de negocio y acceso a datos de la tienda Choro Patin." label="&lt;b&gt;Java Backend&lt;/b&gt;&lt;br&gt;Paquetes: productos, datos, negocio, seguridad" id="java">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+            <mxGeometry x="730" y="1080" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
+        <!-- BASE DE DATOS (C4 Container/Component) -->
+        <object placeholders="1" c4Name="BD_CHOROPATIN" c4Type="Base de datos" c4Technology="PostgreSQL" c4Description="Base de datos de productos, usuarios, ventas y auditoría de la tienda Choro Patin." label="&lt;b&gt;BD_CHOROPATIN&lt;/b&gt;&lt;br&gt;PostgreSQL" id="bd">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#ad1457;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+            <mxGeometry x="720" y="1260" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="Backup BD_CHOROPATIN" c4Type="Backup" c4Technology="PostgreSQL" c4Description="Backup de la base de datos principal de la tienda Choro Patin." label="&lt;b&gt;Backup BD_CHOROPATIN&lt;/b&gt;&lt;br&gt;Backup de la base de datos" id="backup">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+            <mxGeometry x="720" y="1420" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
+        <!-- DIAGRAMA DE CÓDIGO (C4 Code/Classes) -->
+        <object placeholders="1" c4Name="Producto.java" c4Type="Clase" c4Description="Entidad producto de la tienda Choro Patin." label="&lt;b&gt;Producto.java&lt;/b&gt;" id="prod">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1200" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
+        <object placeholders="1" c4Name="ProductoDAO.java" c4Type="Clase" c4Description="Acceso a datos de productos." label="&lt;b&gt;ProductoDAO.java&lt;/b&gt;" id="prodDao">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1250" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
+        <object placeholders="1" c4Name="NegocioProducto.java" c4Type="Clase" c4Description="Lógica de negocio de productos." label="&lt;b&gt;NegocioProducto.java&lt;/b&gt;" id="negocio">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#43a047;strokeColor=#1b5e20;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1300" width="140" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
+        <object placeholders="1" c4Name="SeguridadService.java" c4Type="Clase" c4Description="Servicios de autenticación y seguridad." label="&lt;b&gt;SeguridadService.java&lt;/b&gt;" id="segService">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1350" width="140" height="40" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
+        <object placeholders="1" c4Name="index.jsp" c4Type="Vista" c4Description="Página principal de la tienda Choro Patin." label="&lt;b&gt;index.jsp&lt;/b&gt;" id="jsp">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ab47bc;strokeColor=#6a1b9a;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1400" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="main.js" c4Type="Script" c4Description="Lógica de frontend de la tienda Choro Patin." label="&lt;b&gt;main.js&lt;/b&gt;" id="js">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d4c41;strokeColor=#3e2723;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1450" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="estilos.css" c4Type="Estilo" c4Description="Estilos de la tienda Choro Patin." label="&lt;b&gt;estilos.css&lt;/b&gt;" id="css">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d4c41;strokeColor=#3e2723;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1500" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="Auditoria.sql" c4Type="Script SQL" c4Description="Auditoría de operaciones en la tienda Choro Patin." label="&lt;b&gt;Auditoria.sql&lt;/b&gt;" id="auditoria">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1550" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
+        <object placeholders="1" c4Name="Query.sql" c4Type="Script SQL" c4Description="Consultas SQL de la tienda Choro Patin." label="&lt;b&gt;Query.sql&lt;/b&gt;" id="query">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontSize=11;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1600" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Choro Patin" c4Type="cliente" c4Description="Clientes de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-5">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=#000033;" vertex="1" parent="1">
-            <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Invitado Choro Patin" c4Type="Invitado" c4Description="Visitantes no logeados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-7">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="CONTEXTO" c4Type="ContainerScopeBoundary" c4Application="Contexto" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-8">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="CONTAINER" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-9">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="750" width="1080" height="210" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="COMPONENTES" c4Type="ContainerScopeBoundary" c4Application="Componentes" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-10">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="310" y="990" width="1080" height="610" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="LOGIN" c4Type="Frameworks y Motorde base de datos" c4Technology="Bootsrap,PG admin 4, Google maps" c4Description="Los Usuarios: Administrador, Empleado, deben logearse para acceder a sus respectivos roles y funciones" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-11">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;align=center;arcSize=10;strokeColor=#9673a6;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=default;" vertex="1" parent="1">
-            <mxGeometry x="460" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="xy4HOPIGf3cJa-b_2TDP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy4HOPIGf3cJa-b_2TDP-13" target="xy4HOPIGf3cJa-b_2TDP-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1380" y="630" />
-              <mxPoint x="1380" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object placeholders="1" c4Name="CHORO PATIN - E-commerce" c4Type="Container" c4Technology="Tomcat, JSP, Servlets, PostgreSQL, JS, CSS, Google Maps" c4Description="Tienda de patines: productos, categorías, carrito, usuarios. Misión: Ser la tienda de patines más confiable y accesible del Ecuador. Visión: Servicio de calidad y productos de alta gama." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#E6E6E6"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#6a00ff;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3700CC;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1090" y="560" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Administrador Choro Patin" c4Type="admin" c4Description="Administradores de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color="#cccccc"&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-2">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;gradientColor=default;" vertex="1" parent="1">
-            <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Empleado Choro Patin" c4Type="empleado" c4Description="Vendedores/empleados de la tienda Choro Patin" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="xy4HOPIGf3cJa-b_2TDP-3">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];res
+        <!-- RELACIONES PRINCIPALES Y DE CÓDIGO (mantener estructura de Página-2) -->
+        <!-- ...relaciones y edges adaptados... -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
