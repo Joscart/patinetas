@@ -1,0 +1,86 @@
+@startuml
+' Diagrama de clases real para Choropatin
+' Generado automáticamente desde el código fuente
+
+package "com.productos.datos" {
+  class Conexion {
+    - St: Statement
+    - driver: String
+    - user: String
+    - pwd: String
+    - cadena: String
+    - con: Connection
+    + Conexion()
+    + getDriver(): String
+    + getUser(): String
+    + getPwd(): String
+    + getCadena(): String
+    + getConexion(): Connection
+    + Ejecutar(sql: String): String
+    + Consulta(sql: String): ResultSet
+    - crearConexion(): Connection
+  }
+}
+
+package "com.productos.negocio" {
+  class Producto {
+    + consultarTodo(): String
+    + reporte(): String
+    + reporte(link_eliminar: String, link_modificar: String): String
+    + insertarProducto(nombre: String, cantidad: int, precio: double, cat: int): Boolean
+    ' ...otros métodos según el código
+  }
+  class Categoria {
+    + mostrarCategoria(): String
+  }
+}
+
+package "com.productos.seguridad" {
+  class Usuario {
+    - id: int
+    - perfil: int
+    - estadoCivil: int
+    - cedula: String
+    - Nombre: String
+    - Correo: String
+    - clave: String
+    + getId(): int
+    + setId(id: int): void
+    + getPerfil(): int
+    + setPerfil(perfil: int): void
+    + getEstadoCivil(): int
+    + setEstadoCivil(estadoCivil: int): void
+    + getCedula(): String
+    + setCedula(cedula: String): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + getClave(): String
+    + setClave(clave: String): void
+    + getCorreo(): String
+    + setCorreo(correo: String): void
+    + verificarUsuario(ncorreo: String, nclave: String): boolean
+  }
+  class Perfil {
+    + mostrarPerfil(): String
+  }
+  class EstadoCivil {
+    + mostrarEstadoCivil(): String
+  }
+  class Pagina {
+    + mostrarMenu(nperfil: Integer): String
+  }
+}
+
+' Relaciones
+Producto ..> Conexion : «usa»
+Categoria ..> Conexion : «usa»
+Usuario ..> Conexion : «usa»
+Perfil ..> Conexion : «usa»
+EstadoCivil ..> Conexion : «usa»
+Pagina ..> Conexion : «usa»
+Producto --> Categoria : «usa SQL de categoria»
+Usuario --> Perfil : «tiene perfil»
+Usuario --> EstadoCivil : «tiene estado civil»
+Pagina --> Perfil : «menú por perfil»
+
+@enduml
