@@ -4,92 +4,138 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Fusionando estructura de Página 2 con nombres y contexto de tu proyecto -->
-        <!-- Actores -->
-        <mxCell id="a1" value="Administrador" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#1e88e5;strokeColor=#0d47a1;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="a2" value="Vendedor" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#43a047;strokeColor=#1b5e20;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="a3" value="Cliente" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fbc02d;strokeColor=#f57c00;fontColor=#000000;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="a4" value="Invitado" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#8e24aa;strokeColor=#4a148c;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
-        </mxCell>
-        <!-- Limite de contexto -->
+        <!-- CONTEXTO (C4 Context Diagram) -->
         <mxCell id="ctx1" value="Contexto E-commerce" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="310" y="520" width="1080" height="210" as="geometry" />
         </mxCell>
-        <!-- Contenedores principales -->
-        <mxCell id="c1" value="WebApp Tomcat\n(JSP, Servlets, lógica de negocio)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1976d2;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0d47a1;" vertex="1" parent="1">
+        <mxCell id="admin" value="Administrador" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#1e88e5;strokeColor=#0d47a1;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vendedor" value="Vendedor" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#43a047;strokeColor=#1b5e20;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cliente" value="Cliente" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fbc02d;strokeColor=#f57c00;fontColor=#000000;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="310" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="invitado" value="Invitado" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#8e24aa;strokeColor=#4a148c;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="310" width="200" height="180" as="geometry" />
+        </mxCell>
+        <!-- CONTENEDORES (C4 Container Diagram) -->
+        <mxCell id="webapp" value="WebApp Tomcat\n(JSP, Servlets, lógica de negocio)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1976d2;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0d47a1;" vertex="1" parent="1">
           <mxGeometry x="320" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="c2" value="HTML5, JS, CSS, Google Maps" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#6d4c41;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3e2723;" vertex="1" parent="1">
+        <mxCell id="frontend" value="HTML5, JS, CSS, Google Maps" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#6d4c41;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3e2723;" vertex="1" parent="1">
           <mxGeometry x="1120" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="c3" value="Bootstrap" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ab47bc;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6a1b9a;" vertex="1" parent="1">
+        <mxCell id="bootstrap" value="Bootstrap" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ab47bc;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6a1b9a;" vertex="1" parent="1">
           <mxGeometry x="860" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="c4" value="PostgreSQL (pgAdmin)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#388e3c;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1b5e20;" vertex="1" parent="1">
+        <mxCell id="postgres" value="PostgreSQL (pgAdmin)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#388e3c;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1b5e20;" vertex="1" parent="1">
           <mxGeometry x="590" y="790" width="240" height="120" as="geometry" />
         </mxCell>
-        <!-- Servicios internos -->
-        <mxCell id="s1" value="Gestión de Productos" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+        <!-- COMPONENTES (C4 Component Diagram) -->
+        <mxCell id="gestion" value="Gestión de Productos\n(Java, JS, SQL)" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="1140" y="1010" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="s2" value="Autenticación y Seguridad" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontColor=#ffffff;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="seguridad" value="Autenticación y Seguridad\n(Java, JS)" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontColor=#ffffff;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="320" y="1010" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="s3" value="Java (paquetes: productos, datos, negocio, seguridad)" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="java" value="Java (paquetes: productos, datos, negocio, seguridad)" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontColor=#000000;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="730" y="1080" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="db1" value="BD_PRODUCTOS (PostgreSQL)" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#ad1457;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+        <!-- BASE DE DATOS (C4 Container/Component) -->
+        <mxCell id="bd" value="BD_PRODUCTOS (PostgreSQL)" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#ad1457;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
           <mxGeometry x="720" y="1260" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="db2" value="Backup BD_PRODUCTOS" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
+        <mxCell id="backup" value="Backup BD_PRODUCTOS" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontColor=#000000;fontSize=11;align=center;" vertex="1" parent="1">
           <mxGeometry x="720" y="1420" width="240" height="120" as="geometry" />
         </mxCell>
-        <!-- Relaciones principales (ejemplo, puedes ajustar según tus relaciones reales) -->
-        <mxCell id="r1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#1976d2;strokeWidth=1;endFill=1;strokeColor=#1976d2;" edge="1" parent="1" source="a1" target="c1">
+        <!-- DIAGRAMA DE CÓDIGO (C4 Code/Classes) -->
+        <mxCell id="prod" value="Producto.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff176;strokeColor=#fbc02d;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="prodDao" value="ProductoDAO.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90caf9;strokeColor=#1976d2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="negocio" value="NegocioProducto.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#43a047;strokeColor=#1b5e20;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="segService" value="SeguridadService.java" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff7043;strokeColor=#d84315;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1350" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jsp" value="index.jsp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ab47bc;strokeColor=#6a1b9a;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js" value="main.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d4c41;strokeColor=#3e2723;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="css" value="estilos.css" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d4c41;strokeColor=#3e2723;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="auditoria" value="Auditoria.sql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="query" value="Query.sql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#263238;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <!-- RELACIONES PRINCIPALES -->
+        <mxCell id="r1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#1976d2;strokeWidth=1;endFill=1;strokeColor=#1976d2;" edge="1" parent="1" source="admin" target="webapp">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#43a047;strokeWidth=1;endFill=1;strokeColor=#43a047;" edge="1" parent="1" source="a2" target="c1">
+        <mxCell id="r2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#43a047;strokeWidth=1;endFill=1;strokeColor=#43a047;" edge="1" parent="1" source="vendedor" target="webapp">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r3" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fbc02d;strokeWidth=1;endFill=1;strokeColor=#fbc02d;" edge="1" parent="1" source="a3" target="c1">
+        <mxCell id="r3" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fbc02d;strokeWidth=1;endFill=1;strokeColor=#fbc02d;" edge="1" parent="1" source="cliente" target="webapp">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#8e24aa;strokeWidth=1;endFill=1;strokeColor=#8e24aa;" edge="1" parent="1" source="a4" target="c1">
+        <mxCell id="r4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#8e24aa;strokeWidth=1;endFill=1;strokeColor=#8e24aa;" edge="1" parent="1" source="invitado" target="webapp">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#388e3c;strokeWidth=1;endFill=1;strokeColor=#388e3c;" edge="1" parent="1" source="c1" target="c4">
+        <mxCell id="r5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#388e3c;strokeWidth=1;endFill=1;strokeColor=#388e3c;" edge="1" parent="1" source="webapp" target="postgres">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r6" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fbc02d;strokeWidth=1;endFill=1;strokeColor=#fbc02d;" edge="1" parent="1" source="c1" target="c3">
+        <mxCell id="r6" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fbc02d;strokeWidth=1;endFill=1;strokeColor=#fbc02d;" edge="1" parent="1" source="webapp" target="bootstrap">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r7" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#6d4c41;strokeWidth=1;endFill=1;strokeColor=#6d4c41;" edge="1" parent="1" source="c1" target="c2">
+        <mxCell id="r7" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#6d4c41;strokeWidth=1;endFill=1;strokeColor=#6d4c41;" edge="1" parent="1" source="webapp" target="frontend">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r8" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#f8bbd0;strokeWidth=1;endFill=1;strokeColor=#f8bbd0;" edge="1" parent="1" source="c4" target="db1">
+        <mxCell id="r8" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#f8bbd0;strokeWidth=1;endFill=1;strokeColor=#f8bbd0;" edge="1" parent="1" source="postgres" target="bd">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r9" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#b0bec5;strokeWidth=1;endFill=1;strokeColor=#b0bec5;dashed=1;" edge="1" parent="1" source="db2" target="db1">
+        <mxCell id="r9" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#b0bec5;strokeWidth=1;endFill=1;strokeColor=#b0bec5;dashed=1;" edge="1" parent="1" source="backup" target="bd">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <!-- Relaciones de servicios internos -->
-        <mxCell id="r10" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fff176;strokeWidth=1;endFill=1;strokeColor=#fff176;" edge="1" parent="1" source="s2" target="s1">
+        <!-- Relaciones de componentes y código -->
+        <mxCell id="r10" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#fff176;strokeWidth=1;endFill=1;strokeColor=#fff176;" edge="1" parent="1" source="seguridad" target="gestion">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r11" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="s1" target="s3">
+        <mxCell id="r11" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="gestion" target="java">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r12" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="s2" target="s3">
+        <mxCell id="r12" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="seguridad" target="java">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r13" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#f8bbd0;strokeWidth=1;endFill=1;strokeColor=#f8bbd0;" edge="1" parent="1" source="s3" target="db1">
+        <mxCell id="r13" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#f8bbd0;strokeWidth=1;endFill=1;strokeColor=#f8bbd0;" edge="1" parent="1" source="java" target="bd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Relaciones de código -->
+        <mxCell id="r14" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#43a047;strokeWidth=1;endFill=1;strokeColor=#43a047;" edge="1" parent="1" source="negocio" target="prod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r15" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#90caf9;strokeWidth=1;endFill=1;strokeColor=#90caf9;" edge="1" parent="1" source="prodDao" target="prod">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#b0bec5;strokeWidth=1;endFill=1;strokeColor=#b0bec5;" edge="1" parent="1" source="prodDao" target="auditoria">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r17" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#b0bec5;strokeWidth=1;endFill=1;strokeColor=#b0bec5;" edge="1" parent="1" source="prodDao" target="query">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r18" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#ab47bc;strokeWidth=1;endFill=1;strokeColor=#ab47bc;dashed=1;" edge="1" parent="1" source="jsp" target="js">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r19" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#ab47bc;strokeWidth=1;endFill=1;strokeColor=#ab47bc;dashed=1;" edge="1" parent="1" source="jsp" target="css">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
