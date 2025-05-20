@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6" pages="2">
   <diagram name="Página-1" id="T5G3z5QGRmCYgnlPHkne">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,232 +216,263 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vl_3xwckKiS36bE8gQwd" name="Página-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- CONTEXTO (corrigiendo label para visualizar HTML en drawio XML usando entidades HTML) -->
         <object c4Name="Administrador" c4Type="Persona" c4Technology="N/A" c4Description="Usuario con privilegios de gestión total" label="&lt;b&gt;Administrador&lt;/b&gt;&lt;br/&gt;[Persona]&lt;br/&gt;&lt;i&gt;Usuario con privilegios de gestión total&lt;/i&gt;" id="c4-admin">
-          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-250" y="30" width="120" height="80" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="-80" y="-80" width="120" height="80" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Cliente" c4Type="Persona" c4Technology="N/A" c4Description="Usuario comprador registrado" label="&lt;b&gt;Cliente&lt;/b&gt;&lt;br/&gt;[Persona]&lt;br/&gt;&lt;i&gt;Usuario comprador registrado&lt;/i&gt;" id="c4-cliente">
-          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#000033;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-80" y="30" width="120" height="80" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#000033;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="70" y="-80" width="120" height="80" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Vendedor" c4Type="Persona" c4Technology="N/A" c4Description="Usuario vendedor/empleado" label="&lt;b&gt;Vendedor&lt;/b&gt;&lt;br/&gt;[Persona]&lt;br/&gt;&lt;i&gt;Usuario vendedor/empleado&lt;/i&gt;" id="c4-vendedor">
-          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000033;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="90" y="30" width="120" height="80" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000033;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="210" y="-80" width="120" height="80" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Invitado" c4Type="Persona" c4Technology="N/A" c4Description="Usuario no registrado" label="&lt;b&gt;Invitado&lt;/b&gt;&lt;br/&gt;[Persona]&lt;br/&gt;&lt;i&gt;Usuario no registrado&lt;/i&gt;" id="c4-invitado">
-          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#000033;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
+          <mxCell style="shape=mxgraph.c4.person2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#000033;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
             <mxGeometry x="260" y="30" width="120" height="80" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Choropatin" c4Type="SistemaPrincipal" c4Technology="Java/JSP" c4Description="E-commerce principal, contexto: index.jsp" label="&lt;b&gt;Choropatin&lt;/b&gt;&lt;br/&gt;[SistemaPrincipal: Java/JSP]&lt;br/&gt;&lt;i&gt;E-commerce principal, contexto: index.jsp&lt;/i&gt;" id="c4-choropatin">
-          <mxCell style="shape=mxgraph.c4.system;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
+          <mxCell style="shape=mxgraph.c4.system;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
             <mxGeometry x="-60" y="150" width="300" height="80" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Google Maps API" c4Type="SistemaExterno" c4Technology="API REST" c4Description="Provee mapas y geolocalización" label="&lt;b&gt;Google Maps API&lt;/b&gt;&lt;br/&gt;[SistemaExterno: API REST]&lt;br/&gt;&lt;i&gt;Provee mapas y geolocalización&lt;/i&gt;" id="c4-maps">
-          <mxCell style="shape=mxgraph.c4.system;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#4285F4;strokeColor=#0E7DAD;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
+          <mxCell style="shape=mxgraph.c4.system;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#4285F4;strokeColor=#0E7DAD;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
             <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Flaticon UIcons" c4Type="SistemaExterno" c4Technology="Web Service" c4Description="Provee íconos para la interfaz" label="&lt;b&gt;Flaticon UIcons&lt;/b&gt;&lt;br/&gt;[SistemaExterno: Web Service]&lt;br/&gt;&lt;i&gt;Provee íconos para la interfaz&lt;/i&gt;" id="c4-flaticon">
-          <mxCell style="shape=mxgraph.c4.system;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#C22ED9;strokeColor=#0E7DAD;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
+          <mxCell style="shape=mxgraph.c4.system;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#C22ED9;strokeColor=#0E7DAD;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
             <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <!-- CONEXIONES: todos los elementos interconectados -->
-        <mxCell id="ctx-admin-main" style="endArrow=blockThin;html=1;strokeColor=#06315C;" edge="1" parent="1" source="c4-admin" target="c4-choropatin">
+        <mxCell id="ctx-admin-main" style="endArrow=blockThin;html=1;strokeColor=#06315C;" parent="1" source="c4-admin" target="c4-choropatin" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-cliente-main" style="endArrow=blockThin;html=1;strokeColor=#d79b00;" edge="1" parent="1" source="c4-cliente" target="c4-choropatin">
+        <mxCell id="ctx-cliente-main" style="endArrow=blockThin;html=1;strokeColor=#d79b00;" parent="1" source="c4-cliente" target="c4-choropatin" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-vendedor-main" style="endArrow=blockThin;html=1;strokeColor=#d6b656;" edge="1" parent="1" source="c4-vendedor" target="c4-choropatin">
+        <mxCell id="ctx-vendedor-main" style="endArrow=blockThin;html=1;strokeColor=#d6b656;" parent="1" source="c4-vendedor" target="c4-choropatin" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-invitado-main" style="endArrow=blockThin;html=1;strokeColor=#9673a6;" edge="1" parent="1" source="c4-invitado" target="c4-choropatin">
+        <mxCell id="ctx-invitado-main" style="endArrow=blockThin;html=1;strokeColor=#9673a6;" parent="1" source="c4-invitado" target="c4-choropatin" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-main-maps" style="endArrow=blockThin;html=1;strokeColor=#0E7DAD;dashed=1;" edge="1" parent="1" source="c4-choropatin" target="c4-maps">
+        <mxCell id="ctx-main-maps" style="endArrow=blockThin;html=1;strokeColor=#0E7DAD;dashed=1;" parent="1" source="c4-choropatin" target="c4-maps" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-main-flaticon" style="endArrow=blockThin;html=1;strokeColor=#C22ED9;dashed=1;" edge="1" parent="1" source="c4-choropatin" target="c4-flaticon">
+        <mxCell id="ctx-main-flaticon" style="endArrow=blockThin;html=1;strokeColor=#C22ED9;dashed=1;" parent="1" source="c4-choropatin" target="c4-flaticon" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <!-- Conexiones extra para asegurar interconexión total -->
-        <mxCell id="ctx-admin-cliente" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" edge="1" parent="1" source="c4-admin" target="c4-cliente">
+        <mxCell id="ctx-admin-cliente" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" parent="1" source="c4-admin" target="c4-cliente" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-cliente-vendedor" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" edge="1" parent="1" source="c4-cliente" target="c4-vendedor">
+        <mxCell id="ctx-cliente-vendedor" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" parent="1" source="c4-cliente" target="c4-vendedor" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-vendedor-invitado" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" edge="1" parent="1" source="c4-vendedor" target="c4-invitado">
+        <mxCell id="ctx-vendedor-invitado" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" parent="1" source="c4-vendedor" target="c4-invitado" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-invitado-admin" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" edge="1" parent="1" source="c4-invitado" target="c4-admin">
+        <mxCell id="ctx-invitado-admin" style="endArrow=blockThin;html=1;strokeColor=#888888;dashed=1;" parent="1" source="c4-invitado" target="c4-admin" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <!-- ===================== C4: CONTENEDORES ===================== -->
         <object c4Name="Tomcat 9" c4Type="Contenedor" c4Technology="Java Servlet/JSP" c4Description="Servidor de aplicaciones Java para JSP y Servlets" label="&lt;b&gt;Tomcat 9&lt;/b&gt;&lt;br/&gt;[Contenedor: Java Servlet/JSP]&lt;br/&gt;&lt;i&gt;Servidor de aplicaciones Java para JSP y Servlets&lt;/i&gt;" id="c4-tomcat">
-          <mxCell style="shape=mxgraph.c4.container;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
+          <mxCell style="shape=mxgraph.c4.container;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
             <mxGeometry x="-250" y="350" width="160" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object c4Name="PostgreSQL" c4Type="Contenedor" c4Technology="Base de datos relacional" c4Description="Almacena toda la información del sistema" label="&lt;b&gt;PostgreSQL&lt;/b&gt;&lt;br/&gt;[Contenedor: Base de datos relacional]&lt;br/&gt;&lt;i&gt;Almacena toda la información del sistema&lt;/i&gt;" id="c4-postgres">
-          <mxCell style="shape=cylinder3;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-60" y="350" width="120" height="80" as="geometry" />
-          </mxCell>
-        </object>
-        <object c4Name="Frontend WebApp" c4Type="Contenedor" c4Technology="HTML, CSS, JS, JSP" c4Description="Interfaz web para usuarios" label="&lt;b&gt;Frontend WebApp&lt;/b&gt;&lt;br/&gt;[Contenedor: HTML, CSS, JS, JSP]&lt;br/&gt;&lt;i&gt;Interfaz web para usuarios&lt;/i&gt;" id="c4-frontend">
-          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="90" y="350" width="160" height="80" as="geometry" />
-          </mxCell>
-        </object>
         <object c4Name="Bootstrap" c4Type="Contenedor" c4Technology="Framework CSS" c4Description="Framework para diseño responsivo" label="&lt;b&gt;Bootstrap&lt;/b&gt;&lt;br/&gt;[Contenedor: Framework CSS]&lt;br/&gt;&lt;i&gt;Framework para diseño responsivo&lt;/i&gt;" id="c4-bootstrap">
-          <mxCell style="shape=mxgraph.c4.container;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#C22ED9;strokeColor=#0E7DAD;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="260" y="350" width="120" height="80" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.container;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#C22ED9;strokeColor=#0E7DAD;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="600" y="350" width="120" height="80" as="geometry" />
           </mxCell>
         </object>
-        <!-- CONEXIONES CONTENEDORES -->
-        <mxCell id="cont-tomcat-frontend" style="endArrow=blockThin;html=1;strokeColor=#BD7000;" edge="1" parent="1" source="c4-tomcat" target="c4-frontend">
+        <mxCell id="cont-tomcat-frontend" style="endArrow=blockThin;html=1;strokeColor=#BD7000;" parent="1" source="c4-postgres" target="c4-frontend" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cont-frontend-bootstrap" style="endArrow=blockThin;html=1;strokeColor=#0E7DAD;dashed=1;" edge="1" parent="1" source="c4-frontend" target="c4-bootstrap">
+        <mxCell id="cont-frontend-bootstrap" style="endArrow=blockThin;html=1;strokeColor=#0E7DAD;dashed=1;" parent="1" source="c4-frontend" target="c4-bootstrap" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cont-frontend-postgres" style="endArrow=blockThin;html=1;strokeColor=#b85450;" edge="1" parent="1" source="c4-frontend" target="c4-postgres">
+        <mxCell id="cont-frontend-postgres" style="endArrow=blockThin;html=1;strokeColor=#b85450;" parent="1" source="c4-frontend" target="c4-postgres" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cont-tomcat-postgres" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="c4-tomcat" target="c4-postgres">
+        <mxCell id="cont-tomcat-postgres" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="c4-tomcat" target="c4-postgres" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cont-bootstrap-tomcat" style="endArrow=blockThin;html=1;strokeColor=#C22ED9;dashed=1;" edge="1" parent="1" source="c4-bootstrap" target="c4-tomcat">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cont-bootstrap-tomcat" style="endArrow=blockThin;html=1;strokeColor=#C22ED9;dashed=1;" parent="1" source="c4-frontend" target="c4-tomcat" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <!-- ===================== C4: COMPONENTES ===================== -->
         <object c4Name="Paquete datos" c4Type="Componente" c4Technology="Java" c4Description="Acceso a datos y conexión a BD" label="&lt;b&gt;Paquete datos&lt;/b&gt;&lt;br/&gt;[Componente: Java]&lt;br/&gt;&lt;i&gt;Acceso a datos y conexión a BD&lt;/i&gt;" id="c4-comp-datos">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-250" y="470" width="120" height="60" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="-250" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Paquete negocio" c4Type="Componente" c4Technology="Java" c4Description="Lógica de negocio" label="&lt;b&gt;Paquete negocio&lt;/b&gt;&lt;br/&gt;[Componente: Java]&lt;br/&gt;&lt;i&gt;Lógica de negocio&lt;/i&gt;" id="c4-comp-negocio">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-80" y="470" width="120" height="60" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="-80" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Paquete seguridad" c4Type="Componente" c4Technology="Java" c4Description="Gestión de usuarios y roles" label="&lt;b&gt;Paquete seguridad&lt;/b&gt;&lt;br/&gt;[Componente: Java]&lt;br/&gt;&lt;i&gt;Gestión de usuarios y roles&lt;/i&gt;" id="c4-comp-seguridad">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="90" y="470" width="120" height="60" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="JSPs" c4Type="Componente" c4Technology="JSP" c4Description="Vistas dinámicas del sistema" label="&lt;b&gt;JSPs&lt;/b&gt;&lt;br/&gt;[Componente: JSP]&lt;br/&gt;&lt;i&gt;Vistas dinámicas del sistema&lt;/i&gt;" id="c4-comp-jsps">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="260" y="470" width="120" height="60" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="260" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="JS/CSS" c4Type="Componente" c4Technology="JavaScript/CSS" c4Description="Scripts y estilos del frontend" label="&lt;b&gt;JS/CSS&lt;/b&gt;&lt;br/&gt;[Componente: JavaScript/CSS]&lt;br/&gt;&lt;i&gt;Scripts y estilos del frontend&lt;/i&gt;" id="c4-comp-js-css">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="430" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="SQL scripts" c4Type="Componente" c4Technology="SQL" c4Description="Scripts de base de datos" label="&lt;b&gt;SQL scripts&lt;/b&gt;&lt;br/&gt;[Componente: SQL]&lt;br/&gt;&lt;i&gt;Scripts de base de datos&lt;/i&gt;" id="c4-comp-sql">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="600" y="470" width="120" height="60" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="600" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <!-- CONEXIONES COMPONENTES -->
-        <mxCell id="comp-datos-negocio" style="endArrow=blockThin;html=1;strokeColor=#b85450;" edge="1" parent="1" source="c4-comp-datos" target="c4-comp-negocio">
+        <mxCell id="comp-datos-negocio" style="endArrow=blockThin;html=1;strokeColor=#b85450;" parent="1" source="c4-comp-datos" target="c4-comp-negocio" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="comp-negocio-seguridad" style="endArrow=blockThin;html=1;strokeColor=#82b366;" edge="1" parent="1" source="c4-comp-negocio" target="c4-comp-seguridad">
+        <mxCell id="comp-negocio-seguridad" style="endArrow=blockThin;html=1;strokeColor=#82b366;" parent="1" source="c4-comp-negocio" target="c4-comp-seguridad" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="comp-seguridad-jsps" style="endArrow=blockThin;html=1;strokeColor=#9673a6;" edge="1" parent="1" source="c4-comp-seguridad" target="c4-comp-jsps">
+        <mxCell id="comp-seguridad-jsps" style="endArrow=blockThin;html=1;strokeColor=#9673a6;" parent="1" source="c4-comp-seguridad" target="c4-comp-jsps" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="comp-jsps-js-css" style="endArrow=blockThin;html=1;strokeColor=#d6b656;" edge="1" parent="1" source="c4-comp-jsps" target="c4-comp-js-css">
+        <mxCell id="comp-jsps-js-css" style="endArrow=blockThin;html=1;strokeColor=#d6b656;" parent="1" source="c4-comp-jsps" target="c4-comp-js-css" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="comp-js-css-sql" style="endArrow=blockThin;html=1;strokeColor=#6D1F00;" edge="1" parent="1" source="c4-comp-js-css" target="c4-comp-sql">
+        <mxCell id="comp-js-css-sql" style="endArrow=blockThin;html=1;strokeColor=#6D1F00;" parent="1" source="c4-comp-js-css" target="c4-comp-sql" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="comp-sql-datos" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="c4-comp-sql" target="c4-comp-datos">
+        <mxCell id="comp-sql-datos" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="c4-comp-sql" target="c4-comp-datos" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <!-- ===================== C4: CÓDIGO ===================== -->
         <object c4Name="Conexion.java" c4Type="Clase Java" c4Technology="Java" c4Description="Gestión de la conexión a la base de datos" label="&lt;b&gt;Conexion.java&lt;/b&gt;&lt;br/&gt;[Clase Java: Java]&lt;br/&gt;&lt;i&gt;Gestión de la conexión a la base de datos&lt;/i&gt;" id="c4-cod-conexion">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-250" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="-250" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Producto.java" c4Type="Clase Java" c4Technology="Java" c4Description="Entidad de producto" label="&lt;b&gt;Producto.java&lt;/b&gt;&lt;br/&gt;[Clase Java: Java]&lt;br/&gt;&lt;i&gt;Entidad de producto&lt;/i&gt;" id="c4-cod-producto">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="-120" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="-120" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Categoria.java" c4Type="Clase Java" c4Technology="Java" c4Description="Entidad de categoría" label="&lt;b&gt;Categoria.java&lt;/b&gt;&lt;br/&gt;[Clase Java: Java]&lt;br/&gt;&lt;i&gt;Entidad de categoría&lt;/i&gt;" id="c4-cod-categoria">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="10" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="10" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Usuario.java" c4Type="Clase Java" c4Technology="Java" c4Description="Entidad de usuario" label="&lt;b&gt;Usuario.java&lt;/b&gt;&lt;br/&gt;[Clase Java: Java]&lt;br/&gt;&lt;i&gt;Entidad de usuario&lt;/i&gt;" id="c4-cod-usuario">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="140" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="140" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="bitacora.jsp" c4Type="JSP" c4Technology="JSP" c4Description="Vista de bitácora" label="&lt;b&gt;bitacora.jsp&lt;/b&gt;&lt;br/&gt;[JSP: JSP]&lt;br/&gt;&lt;i&gt;Vista de bitácora&lt;/i&gt;" id="c4-cod-bitacora">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="270" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="270" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="main.js" c4Type="JavaScript" c4Technology="JavaScript" c4Description="Lógica JS principal del frontend" label="&lt;b&gt;main.js&lt;/b&gt;&lt;br/&gt;[JavaScript: JS]&lt;br/&gt;&lt;i&gt;Lógica JS principal del frontend&lt;/i&gt;" id="c4-cod-mainjs">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="400" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="400" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="style.css" c4Type="CSS" c4Technology="CSS" c4Description="Estilos principales del frontend" label="&lt;b&gt;style.css&lt;/b&gt;&lt;br/&gt;[CSS: CSS]&lt;br/&gt;&lt;i&gt;Estilos principales del frontend&lt;/i&gt;" id="c4-cod-stylecss">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="530" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="530" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
         <object c4Name="Auditoria.sql" c4Type="SQL" c4Technology="SQL" c4Description="Script de auditoría de la base de datos" label="&lt;b&gt;Auditoria.sql&lt;/b&gt;&lt;br/&gt;[SQL: SQL]&lt;br/&gt;&lt;i&gt;Script de auditoría de la base de datos&lt;/i&gt;" id="c4-cod-auditoria">
-          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="660" y="570" width="100" height="40" as="geometry" />
+          <mxCell style="shape=mxgraph.c4.component;html=1;fontSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="660" y="670" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
-        <!-- CONEXIONES CÓDIGO -->
-        <mxCell id="cod-conexion-producto" style="endArrow=blockThin;html=1;strokeColor=#b85450;" edge="1" parent="1" source="c4-cod-conexion" target="c4-cod-producto">
+        <mxCell id="cod-conexion-producto" style="endArrow=blockThin;html=1;strokeColor=#b85450;" parent="1" source="c4-cod-conexion" target="c4-cod-producto" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-producto-categoria" style="endArrow=blockThin;html=1;strokeColor=#82b366;" edge="1" parent="1" source="c4-cod-producto" target="c4-cod-categoria">
+        <mxCell id="cod-producto-categoria" style="endArrow=blockThin;html=1;strokeColor=#82b366;" parent="1" source="c4-cod-producto" target="c4-cod-categoria" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-categoria-usuario" style="endArrow=blockThin;html=1;strokeColor=#9673a6;" edge="1" parent="1" source="c4-cod-categoria" target="c4-cod-usuario">
+        <mxCell id="cod-categoria-usuario" style="endArrow=blockThin;html=1;strokeColor=#9673a6;" parent="1" source="c4-cod-categoria" target="c4-cod-usuario" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-usuario-bitacora" style="endArrow=blockThin;html=1;strokeColor=#d6b656;" edge="1" parent="1" source="c4-cod-usuario" target="c4-cod-bitacora">
+        <mxCell id="cod-usuario-bitacora" style="endArrow=blockThin;html=1;strokeColor=#d6b656;" parent="1" source="c4-cod-usuario" target="c4-cod-bitacora" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-bitacora-mainjs" style="endArrow=blockThin;html=1;strokeColor=#6D1F00;" edge="1" parent="1" source="c4-cod-bitacora" target="c4-cod-mainjs">
+        <mxCell id="cod-bitacora-mainjs" style="endArrow=blockThin;html=1;strokeColor=#6D1F00;" parent="1" source="c4-cod-bitacora" target="c4-cod-mainjs" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-mainjs-stylecss" style="endArrow=blockThin;html=1;strokeColor=#6D1F00;dashed=1;" edge="1" parent="1" source="c4-cod-mainjs" target="c4-cod-stylecss">
+        <mxCell id="cod-mainjs-stylecss" style="endArrow=blockThin;html=1;strokeColor=#6D1F00;dashed=1;" parent="1" source="c4-cod-mainjs" target="c4-cod-stylecss" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-stylecss-auditoria" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="c4-cod-stylecss" target="c4-cod-auditoria">
+        <mxCell id="cod-stylecss-auditoria" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="c4-cod-stylecss" target="c4-cod-auditoria" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cod-auditoria-conexion" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="c4-cod-auditoria" target="c4-cod-conexion">
+        <mxCell id="cod-auditoria-conexion" style="endArrow=blockThin;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="c4-cod-auditoria" target="c4-cod-conexion" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <!-- FIN C4: CÓDIGO -->
+        <object placeholders="1" c4Name="System name" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="t-EVqvaX7sL6JCtVDaYj-1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-280" y="120" width="1070" height="720" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Context" c4Type="ContainerScopeBoundary" c4Application="Diagram" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="t-EVqvaX7sL6JCtVDaYj-2">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-270" y="130" width="1050" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Container" c4Type="ContainerScopeBoundary" c4Application="Diagram" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="t-EVqvaX7sL6JCtVDaYj-3">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-270" y="320" width="1050" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Component" c4Type="ContainerScopeBoundary" c4Application="Diagram" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="t-EVqvaX7sL6JCtVDaYj-4">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-270" y="490" width="1050" height="130" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Code" c4Type="ContainerScopeBoundary" c4Application="Diagram" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="t-EVqvaX7sL6JCtVDaYj-5">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-270" y="630" width="1050" height="150" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="t-EVqvaX7sL6JCtVDaYj-6" value="" style="endArrow=blockThin;html=1;strokeColor=#C22ED9;dashed=1;" edge="1" parent="1" source="c4-bootstrap" target="c4-frontend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="399" as="sourcePoint" />
+            <mxPoint x="-90" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object c4Name="Frontend WebApp" c4Type="Contenedor" c4Technology="HTML, CSS, JS, JSP" c4Description="Interfaz web para usuarios" label="&lt;b&gt;Frontend WebApp&lt;/b&gt;&lt;br/&gt;[Contenedor: HTML, CSS, JS, JSP]&lt;br/&gt;&lt;i&gt;Interfaz web para usuarios&lt;/i&gt;" id="c4-frontend">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="330" y="350" width="160" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="t-EVqvaX7sL6JCtVDaYj-7" value="" style="endArrow=blockThin;html=1;strokeColor=#BD7000;" edge="1" parent="1" source="c4-tomcat" target="c4-postgres">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="391" as="sourcePoint" />
+            <mxPoint x="330" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object c4Name="PostgreSQL" c4Type="Contenedor" c4Technology="Base de datos relacional" c4Description="Almacena toda la información del sistema" label="&lt;b&gt;PostgreSQL&lt;/b&gt;&lt;br/&gt;[Contenedor: Base de datos relacional]&lt;br/&gt;&lt;i&gt;Almacena toda la información del sistema&lt;/i&gt;" id="c4-postgres">
+          <mxCell style="shape=cylinder3;html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="80" y="350" width="120" height="80" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
