@@ -15,9 +15,11 @@ public class Perfil {
 		try
 		{
 			rs=con.Consulta(sql);
-			while(rs.next())
-			{
-				perfil+="<option value="+rs.getString(1)+">"+rs.getString(2)+"</option>";
+			if (rs != null) {
+				while(rs.next())
+				{
+					perfil+="<option value="+rs.getString(1)+">"+rs.getString(2)+"</option>";
+				}
 			}
 		}
 		catch(SQLException e)

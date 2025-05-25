@@ -1,24 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
- pageEncoding="ISO-8859-1" session="true" import="com.productos.seguridad.*" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+ pageEncoding="UTF-8" session="true" import="com.productos.seguridad.Usuario" %>
  
 <%
-Usuario usuario= new Usuario();
-String nlogin=request.getParameter("correo");
-String nclave=request.getParameter("contrasena");
-HttpSession sesion=request.getSession(); //Se crea la variable de sesión
-boolean respuesta=usuario.verificarUsuario(nlogin,nclave);
-if (respuesta)
-{
-sesion.setAttribute("usuario", usuario.getNombre()); //Se añade atributo usuario
-sesion.setAttribute("perfil", usuario.getPerfil()); //Se añade atributo perfil
-response.sendRedirect("menu.jsp"); //Se redirecciona a una página específica
-}
-else
-{
-	
+Usuario usuario = new Usuario();
+String nlogin = request.getParameter("correo");
+String nclave = request.getParameter("contrasena");
+HttpSession sesion = request.getSession(); // Se crea la variable de sesiÃ³n
+
+// Verificar credenciales del usuario
+boolean respuesta = usuario.verificarUsuario(nlogin, nclave);
+if (respuesta) {
+    // Establecer atributos de sesiÃ³n
+    sesion.setAttribute("usuario", usuario.getNombre());
+    sesion.setAttribute("perfil", usuario.getPerfil());
+    sesion.setAttribute("correo", nlogin);
+    response.sendRedirect("menu.jsp"); // Redirigir al menÃº principal
+} else {
 %>
 <jsp:forward page="login.jsp">
-<jsp:param name="error" value="Datos incorrectos.<br/>Vuelva a intentarlo."/>
+    <jsp:param name="error" value="Datos incorrectos. Vuelva a intentarlo." />
 </jsp:forward>
 <%
 }

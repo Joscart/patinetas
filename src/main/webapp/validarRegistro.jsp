@@ -1,37 +1,62 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
- pageEncoding="ISO-8859-1" session="true" import="com.productos.seguridad.*" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+ pageEncoding="UTF-8" session="true" import="com.productos.seguridad.Usuario" %>
  
 <%
-Usuario usuario= new Usuario();
-usuario.setNombre(request.getParameter("nombre"));
-usuario.setCedula(request.getParameter("cedula"));
-String nPerfil=request.getParameter("perfil");
-try {
-    int perfil = Integer.parseInt(nPerfil);
+Usuario usuario = new Usuario();
+String nombre = request.getParameter("nombre");
+String cedula = request.getParameter("cedula");
+String correo = request.getParameter("correo");
+String clave = request.getParameter("contrasena");
+String repetirClave = request.getParameter("repetirContrasena");
+int estadoCivil = Integer.parseInt(request.getParameter("estadoCivil"));
+
+usuario.setNombre(nombre);
+usuario.setCedula(cedula);
+usuario.setCorreo(correo);
+usuario.setEstadoCivil(estadoCivil);
+
+HttpSession sesion = request.getSession();
+Object usuarioSesion = sesion.getAttribute("usuario");
+Integer perfilSesion = (Integer) sesion.getAttribute("perfil");
+
+if (usuarioSesion == null || perfilSesion != 1) {
+    // Si no ha iniciado sesiÃ³n o no es admin, solo se permite el registro de cliente
+    if (!usuario.coincidirClaves(clave, repetirClave)) {
+        request.setAttribute("error", "Las contraseÃ±as no coinciden.");
+        request.getRequestDispatcher("Registro.jsp").forward(request, response);
+    } else if (!usuario.validarClave(clave)) {
+        request.setAttribute("error", "La contraseÃ±a no cumple con los requisitos de seguridad.");
+        request.getRequestDispatcher("Registro.jsp").forward(request, response);
+    } else {
+        usuario.setClave(clave);
+        String resultado = usuario.ingresarCliente();
+        if (resultado.equals("InserciÃ³n correcta")) {
+            response.sendRedirect("login.jsp");
+        } else {
+            request.setAttribute("error", resultado);
+            request.getRequestDispatcher("Registro.jsp").forward(request, response);
+        }
+    }
+} else {
+    // Si ha iniciado sesiÃ³n como admin, se permite el registro de usuario
+    int perfil = Integer.parseInt(request.getParameter("sperfil"));
     usuario.setPerfil(perfil);
-} catch (NumberFormatException e) {
-    // Manejo de error si el valor no es un número válido
-    usuario.setPerfil(2); // O asignar un valor predeterminado
+
+    if (!usuario.coincidirClaves(clave, repetirClave)) {
+        request.setAttribute("error", "Las contraseÃ±as no coinciden.");
+        request.getRequestDispatcher("usuarios.jsp").forward(request, response);
+    } else if (!usuario.validarClave(clave)) {
+        request.setAttribute("error", "La contraseÃ±a no cumple con los requisitos de seguridad.");
+        request.getRequestDispatcher("usuarios.jsp").forward(request, response);
+    } else {
+        usuario.setClave(clave);
+        boolean resultado = usuario.ingresarUsuario();
+        if (resultado) {
+            response.sendRedirect("usuarios.jsp");
+        } else {
+            request.setAttribute("error", "Error al registrar el usuario.");
+            request.getRequestDispatcher("usuarios.jsp").forward(request, response);
+        }
+    }
 }
-String nEstadoCivil=request.getParameter("estado_civil");
-try {
-	int estadoCivil = Integer.parseInt(nEstadoCivil);
-	usuario.setEstadoCivil(estadoCivil);
-} catch (NumberFormatException e) {
-	// Manejo de error si el valor no es un número válido
-    usuario.setEstadoCivil(1); // O asignar un valor predeterminado
-}
-usuario.setCorreo(request.getParameter("correo"));
-usuario.setClave("654321");
-HttpSession sesion=request.getSession(); //Se crea la variable de sesión
-boolean respuesta=usuario.ingresarUsuario();
-if (respuesta)
-{
-sesion.setAttribute("estado", "Usuario registrado correctamente"); //Se añade atributo usuario
-}
-else
-{
-sesion.setAttribute("estado", "Error al registrar el usuario"); //Se añade atributo usuario
-}
-response.sendRedirect("usuarios.jsp"); //Se redirecciona a una página específica
 %>

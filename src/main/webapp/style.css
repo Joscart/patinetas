@@ -1,214 +1,87 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header a {
-	position: static;
-	align-self: left;
-    width: 5%;
-    height: auto;
-}
-
-#logo{
-	max-width: 100%;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font-weight: normal;
-    color: #ffffff;
-}
-
-header p {
-    font-size: 1.2em;
-    color: #d1d1d1;
-}
-
-nav {
-	position: sticky;
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav aside {
-	align-self: right;
-    font-size: 1.2em;
-    color: #d1d1d1;
-}
-
-nav aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav aside ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav aside ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#location iframe {
-    width: 100%;
-    height: 400px;
-    border: none;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-section a {
-    color: #a0a0a0;
-    text-decoration: none;
-}
-
-section a:hover {
-    color: #d1d1d1;
-}
-
-/*login and register styles*/
-
+/* Estilos para formularios */
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
+  background-color: #f3f4f6; /* Gris claro */
+  border: 1px solid #e5e7eb; /* Borde gris */
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
+/* Estilos para tablas */
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
 }
 
-label {
-    margin-bottom: 10px;
-    font-size: 1.2em;
+table th, table td {
+  border: 1px solid #e5e7eb; /* Borde gris */
+  padding: 12px;
+  text-align: left;
 }
 
-#seleccionCat{
-	display: inline;
+table th {
+  background-color: #4f46e5; /* Azul índigo */
+  color: #ffffff; /* Blanco */
+  font-weight: bold;
 }
 
-form > *{
-	margin: 1em auto;
-	padding: 1em;
+table tr:nth-child(even) {
+  background-color: #f3f4f6; /* Gris claro */
 }
 
-input [type="text"],[type="password"],[type="email"] {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+table tr:hover {
+  background-color: #e0e7ff; /* Azul claro */
 }
 
-input[type="submit"],[type="reset"] {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+/* Estilos para tablas dentro de formularios */
+form table {
+  border: none;
+  margin: 0;
 }
 
-input[type="radio"] {
-    margin-right: 10px;
+form table th, form table td {
+  border: none;
+  padding: 8px;
 }
 
-input[type="date"] {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+form table td label {
+  font-weight: bold;
+  color: #4f46e5; /* Azul índigo */
 }
 
-input[type="color"] {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+form table td input, form table td select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e5e7eb; /* Borde gris */
+  border-radius: 4px;
+  background-color: #ffffff; /* Blanco */
 }
 
-input[type="file"] {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+form table td input:focus, form table td select:focus {
+  outline: 2px solid #4f46e5; /* Azul índigo */
+  outline-offset: 2px;
 }
 
-input[type="text"]:focus,[type="password"]:focus,[type="email"]:focus {
-    border: 1px solid #35424a;
+/* Botones dentro de formularios */
+form input[type="submit"], form input[type="reset"] {
+  background-color: #4f46e5; /* Azul índigo */
+  color: #ffffff; /* Blanco */
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-input[type="submit"],[type="reset"]:hover {
-    background: #454d5b;
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+  background-color: #4338ca; /* Azul índigo oscuro */
 }
 
-.link-button {
-    display: inline-block;
-    background: rgb(128, 128, 128);
-    color: #ffffff;
-    margin: 0 auto;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: transform 0.3s;
+form input[type="submit"]:focus, form input[type="reset"]:focus {
+  outline: 2px solid #4f46e5; /* Azul índigo */
+  outline-offset: 2px;
 }
-
-.link-button:hover {
-    scale: 1.05;
-}
-
