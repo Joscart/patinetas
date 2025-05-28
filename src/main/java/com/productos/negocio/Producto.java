@@ -76,8 +76,8 @@ public class Producto {
 							+ "<td>"+rs.getString(3)+"</td>"
 							+ "<td>"+rs.getInt(4)+"</td>"
 							+ "<td>"+rs.getDouble(5)+"</td>"
-							+ "<td><a href="+link_modificar+"?id="+rs.getInt(1)+">Modificar</a></td>"
-							+ "<td><a href="+link_eliminar+"?id="+rs.getInt(1)+">Eliminar</a></td>"
+							+ "<td><a href="+link_modificar+"?id="+rs.getInt(1)+"&accion=modificar>Modificar</a></td>"
+							+ "<td><a href="+link_eliminar+"?id="+rs.getInt(1)+"&accion=eliminar>Eliminar</a></td>"
 							+ "</td></tr>";
 				}
 			}
@@ -90,21 +90,66 @@ public class Producto {
 		
 	}
 	
-	public Boolean insertarProducto( String nombre, int cantidad, double precio, int cat)
-	{
-		String sql="INSERT INTO tb_producto ( nombre_pr, cantidad_pr, precio_pr, id_cat) VALUES ('"+nombre+"',"+cantidad+","+precio+","+cat+")";
-		Conexion con=new Conexion();
-		boolean resultado=false;
-		String error=con.Ejecutar(sql);
-		if(error.equals(""))
-		{
-			resultado=true;
-		}else{
-			System.out.print("Error: "+error);
-		}
-		return resultado;
-		
-	}
+	// Inserta producto SIN imagen usando PreparedStatement
+    public Boolean insertarProducto(String nombre, int cantidad, double precio, int cat) {
+        String sql = "INSERT INTO tb_producto (nombre_pr, cantidad_pr, precio_pr, id_cat) VALUES (?, ?, ?, ?)";
+        Conexion con = new Conexion();
+        boolean resultado = false;
+        PreparedStatement ps = null;
+        try {
+            ps = con.getConexion().prepareStatement(sql);
+            ps.setString(1, nombre);
+            ps.setInt(2, cantidad);
+            ps.setDouble(3, precio);
+            ps.setInt(4, cat);
+            if (ps.executeUpdate() == 1) {
+                resultado = true;
+            }
+        } catch (Exception e) {
+            System.out.print("Error: " + e.getMessage());
+        } finally {
+            try {
+                if (ps != null) ps.close();
+                con.getConexion().close();
+            } catch (Exception ex) {
+                System.out.print(ex.getMessage());
+            }
+        }
+        return resultado;
+    }
+
+    // Inserta producto CON imagen usando PreparedStatement
+    public Boolean insertarProducto(String nombre, int cantidad, double precio, int cat, String rutaImagen) {
+        String sql = "INSERT INTO tb_producto (nombre_pr, cantidad_pr, precio_pr, id_cat, foto_pr) VALUES (?, ?, ?, ?, ?);";
+        Conexion con = new Conexion();
+        boolean resultado = false;
+        PreparedStatement ps = null;
+        java.io.FileInputStream fis = null;
+        try {
+            java.io.File file = new java.io.File(rutaImagen);
+            fis = new java.io.FileInputStream(file);
+            ps = con.getConexion().prepareStatement(sql);
+            ps.setString(1, nombre);
+            ps.setInt(2, cantidad);
+            ps.setDouble(3, precio);
+            ps.setInt(4, cat);
+            ps.setBinaryStream(5, fis, (int) file.length());
+            if (ps.executeUpdate() == 1) {
+                resultado = true;
+            }
+        } catch (Exception e) {
+            System.out.print("Error: " + e.getMessage());
+        } finally {
+            try {
+                if (fis != null) fis.close();
+                if (ps != null) ps.close();
+                con.getConexion().close();
+            } catch (Exception ex) {
+                System.out.print(ex.getMessage());
+            }
+        }
+        return resultado;
+    }
 
 	public String buscarProductoCategoria(int cat)
 	{
@@ -277,6 +322,22 @@ public class Producto {
         String sql = "SELECT * FROM tb_producto WHERE id_pr = " + idProducto;
         Conexion con = new Conexion();
         return con.Consulta(sql);
+    }
+	
+	// Método para eliminar un producto por su id
+    public boolean eliminarProducto(int idProducto) {
+        String sql = "DELETE FROM tb_producto WHERE id_pr = " + idProducto;
+        Conexion con = new Conexion();
+        String error = con.Ejecutar(sql);
+        return error.equals("");
+    }
+
+    // Método para actualizar los datos de un producto
+    public boolean actualizarDatos(int id, int idCat, String nombre, int cantidad, double precio, int estado, double valor) {
+        String sql = "UPDATE tb_producto SET id_cat=" + idCat + ", nombre_pr='" + nombre + "', cantidad_pr=" + cantidad + ", precio_pr=" + precio + ", estado=" + estado + ", valor=" + valor + " WHERE id_pr=" + id;
+        Conexion con = new Conexion();
+        String error = con.Ejecutar(sql);
+        return error.equals("");
     }
 	
 }

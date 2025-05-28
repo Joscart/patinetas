@@ -106,7 +106,7 @@ body {
 					</tr>
 					<tr>
 						<td><label for="precio">Precio:</label></td>
-						<td><input type="number" id="precio" name="precio" required></td>
+						<td><input type="number" id="precio" name="precio" step="0.01" min="0" required></td>
 					</tr>
 					<tr>
 						<td><label for="categoria">Categoria:</label></td>
@@ -118,42 +118,44 @@ body {
 						</td>
 					</tr>
 					<tr>
+						<td><label for="cantidad">Cantidad:</label></td>
+						<td><input type="number" id="cantidad" name="cantidad" min="0" required></td>
+					</tr>
+					<tr>
 						<td colspan="2"><input type="submit" value="Agregar Producto"></td>
 					</tr>
 				</table>
 			</form>
 			<%
-			// Obtener los datos del formulario
+			// Procesamiento estándar de formulario solo texto
 			String nombre = request.getParameter("nombre");
 			String precio = request.getParameter("precio");
+			String cantidad = request.getParameter("cantidad");
 			String categoria = request.getParameter("cmbCategoria");
-			if (nombre != null && precio != null && categoria != null) {
-	            // Crear un nuevo objeto Producto
-	            Producto p = new Producto();
-	            
-	            try {
-	                // Convertir el precio a double y la categoria a int
-	                Double.parseDouble(precio);
-	                Integer.parseInt(categoria);
-	            } catch (NumberFormatException e) {
-	                out.println("<p>Error: Precio o Categoria no válidos.</p>");
-	            }
-	            Boolean resultado = p.insertarProducto(nombre, 0,Double.parseDouble(precio), Integer.parseInt(categoria));
-	            
-	            // Llamar al método para agregar el producto
-	            if (resultado) {
-	                out.println("<p>Producto agregado exitosamente.</p>");
-	            } else {
-	                out.println("<p>Error al agregar el producto.</p>");
-	            }
-	        }
+			if (nombre != null && precio != null && cantidad != null && categoria != null) {
+			    Producto p = new Producto();
+			    boolean resultado = false;
+			    try {
+			        int cantidadInt = Integer.parseInt(cantidad);
+			        double precioDouble = Double.parseDouble(precio);
+			        int categoriaInt = Integer.parseInt(categoria);
+			        resultado = p.insertarProducto(nombre, cantidadInt, precioDouble, categoriaInt);
+			        if (resultado) {
+			            out.println("<p>Producto agregado exitosamente.</p>");
+			        } else {
+			            out.println("<p>Error al agregar el producto.</p>");
+			        }
+			    } catch (NumberFormatException e) {
+			        out.println("<p>Error: Precio, Categoria o Cantidad no válidos.</p>");
+			    }
+			}
 			%>
 		</section>
 		<section id="productos">
 			<h2 class="text-center text-3xl font-bold text-indigo-700">Lista de Productos</h2>
 			<%
 			Producto p = new Producto();
-			out.print(p.reporte("", ""));
+			out.print(p.reporte("modProducto.jsp", "modProducto.jsp"));
 			%>
 		</section>
 	</main>

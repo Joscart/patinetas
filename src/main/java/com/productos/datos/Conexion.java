@@ -70,7 +70,6 @@ public class Conexion
 	{
 	St=getConexion().createStatement();
 	St.execute(sql);
-	error="Datos insertados";
 	}
 	catch(Exception ex)
 	{
