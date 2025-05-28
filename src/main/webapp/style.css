@@ -85,3 +85,54 @@ form input[type="submit"]:focus, form input[type="reset"]:focus {
   outline: 2px solid #4f46e5; /* Azul índigo */
   outline-offset: 2px;
 }
+
+/* Galería de productos */
+.galeria-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.producto-card {
+  width: 200px;
+  border: 1px solid #e0e7ff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #e0e7ff;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.2s cubic-bezier(.4,0,.2,1), box-shadow 0.2s;
+}
+.producto-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px #6366f133;
+  border-color: #6366f1;
+  z-index: 2;
+}
+.producto-card h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #3730a3;
+  font-weight: 700;
+}
+.producto-card .oferta-badge {
+  display: inline-block;
+  background: #6366f1;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.producto-card .precio-normal {
+  color: #3730a3;
+  font-weight: bold;
+}
+.producto-card .precio-oferta {
+  color: #e11d48;
+  font-weight: bold;
+}
+.producto-card .precio-tachado {
+  text-decoration: line-through;
+  color: #64748b;
+}

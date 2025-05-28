@@ -203,4 +203,80 @@ public class Producto {
 		tabla+="</table>";
 		return tabla;
 	}
+	
+	// Método para insertar imagen en un producto
+    public String insertarImagenProducto(int idProducto, String rutaImagen) {
+        String sql = "UPDATE public.tb_producto SET foto_pr = pg_read_binary_file('" + rutaImagen + "')::bytea WHERE id_pr = " + idProducto + ";";
+        Conexion con = new Conexion();
+        String resultado = con.Ejecutar(sql);
+        return resultado;
+    }
+    
+    // Método para obtener la imagen de un producto en base64 para HTML
+    public String obtenerImagenProducto(int idProducto) {
+        String sql = "SELECT CONCAT('data:image/png;base64,', encode(foto_pr, 'base64')) AS foto_base64 FROM public.tb_producto WHERE id_pr = " + idProducto + ";";
+        Conexion con = new Conexion();
+        ResultSet rs = null;
+        String imagenBase64 = "";
+        rs = con.Consulta(sql);
+        try {
+            if (rs != null && rs.next()) {
+                imagenBase64 = rs.getString("foto_base64");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.print(e.getMessage());
+        }
+        return imagenBase64;
+    }
+
+	// Método para imprimir una galería de productos seleccionable usando obtenerImagenProducto y con efecto hover
+    public String galeriaProductos(String linkVista) {
+        String sql = "SELECT id_pr, nombre_pr, precio_pr, estado, valor FROM public.tb_producto ORDER BY id_pr";
+        Conexion con = new Conexion();
+        ResultSet rs = null;
+        StringBuilder galeria = new StringBuilder();
+        galeria.append("<div class='galeria-productos'>");
+        rs = con.Consulta(sql);
+        try {
+            while (rs != null && rs.next()) {
+                int id = rs.getInt("id_pr");
+                String nombre = rs.getString("nombre_pr");
+                double precio = rs.getDouble("precio_pr");
+                int estado = rs.getInt("estado");
+                double valorOferta = rs.getDouble("valor");
+                // Usar el método obtenerImagenProducto
+                String imgBase64 = obtenerImagenProducto(id);
+                if (imgBase64 == null || imgBase64.isEmpty()) {
+                    imgBase64 = "images/choropatin-logo.jpg"; // Imagen por defecto si no hay foto
+                }
+                galeria.append("<a href='" + linkVista + "?id=" + id + "' style='text-decoration:none;color:inherit;'>");
+                galeria.append("<div class='producto-card'>");
+                galeria.append("<img src='" + imgBase64 + "' alt='" + nombre + "' style='width:100%;height:150px;object-fit:cover;'>");
+                galeria.append("<div style='padding:10px;'>");
+                galeria.append("<h3>" + nombre + "</h3>");
+                if (estado == 1) {
+                    galeria.append("<span class='oferta-badge'>Oferta</span><br>");
+                    galeria.append("<span class='precio-tachado'>$" + precio + "</span> ");
+                    galeria.append("<span class='precio-oferta'>$" + valorOferta + "</span>");
+                } else {
+                    galeria.append("<span class='precio-normal'>$" + precio + "</span>");
+                }
+                galeria.append("</div></div></a>");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.print(e.getMessage());
+        }
+        galeria.append("</div>");
+        return galeria.toString();
+    }
+
+	// Método para consultar un producto por su id
+    public ResultSet consultar(int idProducto) {
+        String sql = "SELECT * FROM tb_producto WHERE id_pr = " + idProducto;
+        Conexion con = new Conexion();
+        return con.Consulta(sql);
+    }
+	
 }

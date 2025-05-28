@@ -102,7 +102,7 @@ body {
 				</div>
 				<div class="md:w-1/2 mb-10 md:mb-0">
 					<img alt="" class="w-full rounded-lg shadow-lg object-cover"
-						height="400" loading="lazy"
+						height="400"
 						src="https://storage.googleapis.com/a1aa/image/5252e38a-0d56-4f6d-c3e3-f23ea2a51b33.jpg"
 						width="600" />
 				</div>
@@ -124,7 +124,7 @@ body {
 				<img
 					alt="Happy customers skating in a sunny park wearing Guayakill roller skates and protective gear"
 					class="mt-10 rounded-lg shadow-lg mx-auto max-w-full object-cover"
-					height="400" loading="lazy"
+					height="400"
 					src="https://storage.googleapis.com/a1aa/image/ee84c35b-8398-4039-bad6-d36ae92991b0.jpg"
 					width="800" />
 				<h2 class="text-2xl font-bold text-indigo-700 mt-8">Nuestra
@@ -143,7 +143,6 @@ body {
 				<h2 class="text-2xl font-bold text-indigo-700 mt-8">Nuestra
 					Ubicación</h2>
 				<iframe class="w-full h-64 rounded-lg border border-gray-300 mt-4"
-					loading="lazy"
 					src="https://www.google.com/maps/d/embed?mid=1C050dfAawal2mlOydNunYhsAenyG_kc&ehbc=2E312F&noprof=1"></iframe>
 			</div>
 		</section>
@@ -174,6 +173,7 @@ body {
 						</span>
 					</div>
 				</div>
+			</div>
 		</section>
 	</main>
 	<!-- Footer -->

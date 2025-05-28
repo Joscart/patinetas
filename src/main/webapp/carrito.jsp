@@ -83,9 +83,123 @@ body {
 	</header>
 
 	<main class="pt-24">
-		<h1 class="text-center text-3xl font-bold text-indigo-700">Carrito</h1>
-		<p class="text-center text-gray-700 mt-4">Contenido del carrito aquí.</p>
-	</main>
+<%
+// Obtener o crear el carrito en sesión
+HttpSession sesion = request.getSession();
+Carrito carrito = (Carrito) sesion.getAttribute("carrito");
+if (carrito == null) {
+    carrito = new Carrito();
+    sesion.setAttribute("carrito", carrito);
+}
+// Si se envió un producto por POST, agregarlo al carrito
+String idParam = request.getParameter("id");
+String cantidadParam = request.getParameter("cantidad");
+if (idParam != null && cantidadParam != null) {
+    try {
+        int idProducto = Integer.parseInt(idParam);
+        int cantidad = Integer.parseInt(cantidadParam);
+        Producto prod = new Producto();
+        java.sql.ResultSet rs = prod.consultar(idProducto);
+        if (rs != null && rs.next()) {
+            int stock = rs.getInt("cantidad_pr");
+            // Buscar si ya está en el carrito y sumar la cantidad
+            int cantidadEnCarrito = 0;
+            for (Carrito.Item item : carrito.getItems()) {
+                if (item.getIdProducto() == idProducto) {
+                    cantidadEnCarrito = item.getCantidad();
+                    break;
+                }
+            }
+            if (cantidad + cantidadEnCarrito > stock) {
+                // Redireccionar a vistaProducto.jsp con mensaje de error
+                response.sendRedirect("vistaProducto.jsp?id=" + idProducto + "&error=La cantidad solicitada supera el stock disponible");
+                return;
+            }
+            String nombre = rs.getString("nombre_pr");
+            double precio = rs.getDouble("precio_pr");
+            int estado = rs.getInt("estado");
+            double valorOferta = rs.getDouble("valor");
+            boolean enOferta = (estado == 1);
+            carrito.agregarProducto(idProducto, nombre, cantidad, precio, valorOferta, enOferta);
+        }
+    } catch (Exception ex) {
+        // Manejo de error simple
+    }
+}
+%>
+<h1 class="text-center text-3xl font-bold text-indigo-700">Carrito</h1>
+<%
+if (carrito.getItems().isEmpty()) {
+%>
+    <p class="text-center text-gray-700 mt-4">Tu carrito está vacío.</p>
+<%
+} else {
+%>
+    <div class="max-w-4xl mx-auto mt-8">
+        <table class="tabla">
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+                <th>Acción</th>
+            </tr>
+            <% for (Carrito.Item item : carrito.getItems()) { %>
+            <tr>
+                <td><%=item.getNombre()%></td>
+                <td><%=item.getCantidad()%></td>
+                <td>
+                    <% if (item.isEnOferta()) { %>
+                        <span class="text-pink-600 font-bold">$<%=item.getValorOferta()%></span>
+                    <% } else { %>
+                        <span>$<%=item.getPrecio()%></span>
+                    <% } %>
+                </td>
+                <td>
+                    <% if (item.isEnOferta()) { %>
+                        $<%=item.getValorOferta() * item.getCantidad()%>
+                    <% } else { %>
+                        $<%=item.getPrecio() * item.getCantidad()%>
+                    <% } %>
+                </td>
+                <td>
+                    <form action="carrito.jsp" method="post" style="display:inline;">
+                        <input type="hidden" name="eliminar" value="<%=item.getIdProducto()%>" />
+                        <button type="submit" class="bg-pink-600 hover:bg-pink-700 text-white font-bold px-3 py-1 rounded">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+            <% } %>
+            <tr>
+                <td colspan="3" class="text-right font-bold">Total:</td>
+                <td colspan="2" class="font-bold text-indigo-700">$<%=carrito.getTotal()%></td>
+            </tr>
+        </table>
+        <form action="carrito.jsp" method="post" class="mt-4 text-right">
+            <input type="hidden" name="limpiar" value="1" />
+            <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-2 rounded">Vaciar carrito</button>
+        </form>
+    </div>
+<%
+}
+// Eliminar producto
+String eliminar = request.getParameter("eliminar");
+if (eliminar != null) {
+    try {
+        int idEliminar = Integer.parseInt(eliminar);
+        carrito.eliminarProducto(idEliminar);
+        response.sendRedirect("carrito.jsp");
+        return;
+    } catch (Exception ex) {}
+}
+// Limpiar carrito
+if (request.getParameter("limpiar") != null) {
+    carrito.limpiar();
+    response.sendRedirect("carrito.jsp");
+    return;
+}
+%>
+</main>
 
 	<footer class="bg-indigo-700 text-indigo-100 py-8 mt-16">
 		<div

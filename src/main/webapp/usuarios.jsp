@@ -141,7 +141,7 @@ body {
 					<tr>
 						<td><label for="estado_civil">Estado Civil:</label></td>
 						<td>
-							<select id="estado_civil" name="estadoCivil">
+							<select id="estado_civil" name="estado_civil">
 								<%
 								EstadoCivil estc = new EstadoCivil();
 								out.print(estc.mostrarEstadoCivil());
@@ -159,7 +159,7 @@ body {
 					</tr>
 					<tr>
 						<td><label for="repetirContrasena">Repetir Contraseña:</label></td>
-						<td><input type="password" id="repetirContrasena" name="repetirContrasena" required></td>
+						<td><input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required></td>
 					</tr>
 					<tr>
 						<td><input type="reset" value="Cancelar"></td>

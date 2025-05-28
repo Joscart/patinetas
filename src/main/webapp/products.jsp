@@ -87,7 +87,7 @@ body {
 			<h2 class="text-center text-3xl font-bold text-indigo-700">Lista de Productos</h2>
 			<%
 			Producto p = new Producto();
-			out.print(p.consultarTodo());
+			out.print(p.galeriaProductos("vistaProducto.jsp"));
 			%>
 		</section>
 	</main>

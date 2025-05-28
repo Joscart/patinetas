@@ -7,8 +7,8 @@ String nombre = request.getParameter("nombre");
 String cedula = request.getParameter("cedula");
 String correo = request.getParameter("correo");
 String clave = request.getParameter("contrasena");
-String repetirClave = request.getParameter("repetirContrasena");
-int estadoCivil = Integer.parseInt(request.getParameter("estadoCivil"));
+String repetirClave = request.getParameter("confirmar_contrasena");
+int estadoCivil = Integer.parseInt(request.getParameter("estado_civil"));
 
 usuario.setNombre(nombre);
 usuario.setCedula(cedula);
@@ -23,10 +23,10 @@ if (usuarioSesion == null || perfilSesion != 1) {
     // Si no ha iniciado sesión o no es admin, solo se permite el registro de cliente
     if (!usuario.coincidirClaves(clave, repetirClave)) {
         request.setAttribute("error", "Las contraseñas no coinciden.");
-        request.getRequestDispatcher("Registro.jsp").forward(request, response);
+        request.getRequestDispatcher("register.jsp").forward(request, response);
     } else if (!usuario.validarClave(clave)) {
         request.setAttribute("error", "La contraseña no cumple con los requisitos de seguridad.");
-        request.getRequestDispatcher("Registro.jsp").forward(request, response);
+        request.getRequestDispatcher("register.jsp").forward(request, response);
     } else {
         usuario.setClave(clave);
         String resultado = usuario.ingresarCliente();
@@ -34,7 +34,7 @@ if (usuarioSesion == null || perfilSesion != 1) {
             response.sendRedirect("login.jsp");
         } else {
             request.setAttribute("error", resultado);
-            request.getRequestDispatcher("Registro.jsp").forward(request, response);
+            request.getRequestDispatcher("register.jsp").forward(request, response);
         }
     }
 } else {

@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta content="width=device-width, initial-scale=1" name="viewport" />
-<title>Choro Patin - Iniciar Sesión</title>
+<title>Choro Patin - Productos</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -83,28 +83,70 @@ body {
 	</header>
 
 	<main class="pt-24">
-		<h3 class="text-center text-3xl font-bold text-indigo-700">Iniciar Sesión</h3>
-		<% String errorMsg = request.getParameter("error");
-           if (errorMsg != null && !errorMsg.isEmpty()) { %>
-            <div class="max-w-md mx-auto my-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded text-center">
-                <%= errorMsg %>
-            </div>
-        <% } %>
-		<form action="validarLogin.jsp" method="post" class="card">
-			<table border="0" cellpadding="5" cellspacing="5">
-				<tr>
-					<td><label for="correo">Correo:</label></td>
-					<td><input type="email" id="correo" name="correo" required></td>
-				</tr>
-				<tr>
-					<td><label for="contrasena">Contraseña:</label></td>
-					<td><input type="password" id="contrasena" name="contrasena" required></td>
-				</tr>
-				<tr>
-					<td colspan="2"><input type="submit" value="Iniciar Sesión"></td>
-				</tr>
-			</table>
-		</form>
+		<section id="producto">
+			<%
+			// Mostrar mensaje de error si existe
+			String errorMsg = request.getParameter("error");
+			if (errorMsg != null && !errorMsg.isEmpty()) {
+			%>
+				<div class="max-w-2xl mx-auto text-center text-red-600 font-bold text-xl mt-4 mb-4"><%=errorMsg%></div>
+			<%
+			}
+			// Obtener el id del producto desde el parámetro de la URL
+			String idParam = request.getParameter("id");
+			if (idParam != null) {
+				try {
+					int idProducto = Integer.parseInt(idParam);
+					Producto prod = new Producto();
+					java.sql.ResultSet rs = prod.consultar(idProducto);
+					if (rs != null && rs.next()) {
+						String nombre = rs.getString("nombre_pr");
+						int cantidad = rs.getInt("cantidad_pr");
+						double precio = rs.getDouble("precio_pr");
+						int estado = rs.getInt("estado");
+						double valorOferta = rs.getDouble("valor");
+						String imgBase64 = prod.obtenerImagenProducto(idProducto);
+						if (imgBase64 == null || imgBase64.isEmpty()) {
+							imgBase64 = "images/choropatin-logo.jpg";
+						}
+			%>
+			<div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row gap-8 items-center">
+				<img src="<%=imgBase64%>" alt="<%=nombre%>" class="w-64 h-64 object-cover rounded-lg border border-indigo-200" />
+				<div class="flex-1">
+					<h1 class="text-3xl font-bold text-indigo-700 mb-2"><%=nombre%></h1>
+					<p class="text-lg text-gray-700 mb-2">Cantidad disponible: <span class="font-semibold"><%=cantidad%></span></p>
+					<% if (estado == 1) { %>
+						<span class="inline-block bg-indigo-600 text-white px-3 py-1 rounded mb-2">Oferta</span><br>
+						<span class="text-gray-500 line-through text-lg">$<%=precio%></span>
+						<span class="text-2xl text-pink-600 font-bold ml-2">$<%=valorOferta%></span>
+					<% } else { %>
+						<span class="text-2xl text-indigo-700 font-bold">$<%=precio%></span>
+					<% } %>
+					<form action="carrito.jsp" method="post" class="mt-6 flex gap-4 items-center">
+						<input type="hidden" name="id" value="<%=idProducto%>" />
+						<input type="number" name="cantidad" value="1" min="1" max="<%=cantidad%>" class="border border-indigo-200 rounded px-3 py-2 w-20" />
+						<button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-2 rounded transition">Agregar al carrito</button>
+					</form>
+				</div>
+			</div>
+			<%
+					} else {
+			%>
+				<div class="max-w-2xl mx-auto text-center text-red-600 font-bold text-xl mt-12">Producto no encontrado.</div>
+			<%
+					}
+				} catch (Exception ex) {
+			%>
+				<div class="max-w-2xl mx-auto text-center text-red-600 font-bold text-xl mt-12">ID de producto inválido.</div>
+			<%
+				}
+			} else {
+			%>
+				<div class="max-w-2xl mx-auto text-center text-red-600 font-bold text-xl mt-12">No se especificó producto.</div>
+			<%
+			}
+			%>
+		</section>
 	</main>
 
 	<footer class="bg-indigo-700 text-indigo-100 py-8 mt-16">

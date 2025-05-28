@@ -14,6 +14,7 @@ public class Usuario {
     private String nombre;
     private String correo;
     private String clave;
+    private String mensajeError = null;
 
     public int getId() {
         return id;
@@ -71,6 +72,14 @@ public class Usuario {
         this.correo = correo;
     }
 
+    public String getMensajeError() {
+        return mensajeError;
+    }
+
+    public void setMensajeError(String mensajeError) {
+        this.mensajeError = mensajeError;
+    }
+
     public boolean verificarUsuario(String correo, String clave) {
         String query = "SELECT * FROM tb_usuario WHERE correo_us = ? AND clave_us = ? AND bloqueo = 0";
         try {
@@ -79,16 +88,23 @@ public class Usuario {
             ps.setString(1, correo);
             ps.setString(2, clave);
             try (ResultSet rs = ps.executeQuery()) {
+                if (rs == null) {
+                    this.mensajeError = "No se ha podido iniciar sesión. Error interno al consultar la base de datos.";
+                    return false;
+                }
                 if (rs.next()) {
                     this.correo = correo;
                     this.clave = clave;
                     this.perfil = rs.getInt("id_per");
                     this.nombre = rs.getString("nombre_us");
+                    this.mensajeError = null;
                     return true;
+                } else {
+                    this.mensajeError = "No se ha podido iniciar sesion. Usuario o clave incorrectos.";
                 }
             }
         } catch (SQLException e) {
-            System.err.println("Error al verificar usuario: " + e.getMessage());
+            this.mensajeError = "Error al verificar usuario: " + e.getMessage();
         }
         return false;
     }

@@ -16,9 +16,13 @@ if (respuesta) {
     sesion.setAttribute("correo", nlogin);
     response.sendRedirect("menu.jsp"); // Redirigir al menú principal
 } else {
+    String errorMsg = usuario.getMensajeError();
+    if (errorMsg == null || errorMsg.isEmpty()) {
+        errorMsg = "Datos incorrectos. Vuelva a intentarlo.";
+    }
 %>
 <jsp:forward page="login.jsp">
-    <jsp:param name="error" value="Datos incorrectos. Vuelva a intentarlo." />
+    <jsp:param name="error" value="<%= errorMsg %>" />
 </jsp:forward>
 <%
 }

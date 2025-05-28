@@ -103,10 +103,10 @@ body {
 				<tr>
 					<td><label for="estado_civil">Estado Civil:</label></td>
 					<td><select id="estado_civil" name="estado_civil">
-							<option value="soltero">Soltero</option>
-							<option value="casado">Casado</option>
-							<option value="divorciado">Divorciado</option>
-							<option value="viudo">Viudo</option>
+							<%
+							EstadoCivil estc = new EstadoCivil();
+							out.print(estc.mostrarEstadoCivil());
+							%>
 					</select></td>
 				</tr>
 				<!-- input lugar residencia -->
